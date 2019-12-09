@@ -14,7 +14,7 @@ Tinyriscv run on windows platform, it Compiled and simulated with iverilog. Befo
 
 1)iverilog
 
-Download from http://bleyer.org/icarus/](http://bleyer.org/icarus/, install it and add to system environment PATH.
+Download from http://bleyer.org/icarus/, install it and add to system environment PATH.
 
 2)GNU Toolchain
 
