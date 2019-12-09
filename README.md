@@ -32,4 +32,4 @@ Open the CMD and go to the sim directory and run command below:
 
 You can see the following print if it run successfully:
 
-!(https://github.com/liangkangnan/tinyriscv/blob/master/pic/add.jpg?raw=true)
+![](https://github.com/liangkangnan/tinyriscv/blob/master/pic/add.jpg?raw=true)
