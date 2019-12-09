@@ -26,7 +26,7 @@ Download from BaiduNetDisk https://pan.baidu.com/s/1nFaUIwv171PDXuF7TziDFg, extr
 
 Take the &quot;add&quot; instruction as an example to show how to use:
 
-Open the CMD and goto the sim directory and run command below:
+Open the CMD and go to the sim directory and run command below:
 
 **sim\_new\_nowave.bat ..\tests\isa\generated\rv32ui-p-add.bin inst.data**
 
