@@ -1,0 +1,94 @@
+
+generated/rv32ui-p-fence_i:     file format elf32-littleriscv
+
+
+Disassembly of section .text.init:
+
+00000000 <_start>:
+   0:	00000d13          	li	s10,0
+   4:	00000d93          	li	s11,0
+   8:	06f00693          	li	a3,111
+   c:	00001517          	auipc	a0,0x1
+  10:	ff451503          	lh	a0,-12(a0) # 1000 <begin_signature>
+  14:	00001597          	auipc	a1,0x1
+  18:	fee59583          	lh	a1,-18(a1) # 1002 <begin_signature+0x2>
+  1c:	00000013          	nop
+  20:	00000013          	nop
+  24:	00000013          	nop
+  28:	00000013          	nop
+  2c:	00000013          	nop
+  30:	00000013          	nop
+  34:	00000013          	nop
+  38:	00000013          	nop
+  3c:	00000013          	nop
+  40:	00000297          	auipc	t0,0x0
+  44:	00a29a23          	sh	a0,20(t0) # 54 <_start+0x54>
+  48:	00000297          	auipc	t0,0x0
+  4c:	00b29723          	sh	a1,14(t0) # 56 <_start+0x56>
+  50:	0000100f          	fence.i
+  54:	0de68693          	addi	a3,a3,222
+
+00000058 <test_2>:
+  58:	00000013          	nop
+  5c:	1bc00e93          	li	t4,444
+  60:	00200193          	li	gp,2
+  64:	07d69a63          	bne	a3,t4,d8 <fail>
+  68:	06400713          	li	a4,100
+  6c:	fff70713          	addi	a4,a4,-1
+  70:	fe071ee3          	bnez	a4,6c <test_2+0x14>
+  74:	00000297          	auipc	t0,0x0
+  78:	04a29623          	sh	a0,76(t0) # c0 <test_2+0x68>
+  7c:	00000297          	auipc	t0,0x0
+  80:	04b29323          	sh	a1,70(t0) # c2 <test_2+0x6a>
+  84:	0000100f          	fence.i
+  88:	00000013          	nop
+  8c:	00000013          	nop
+  90:	00000013          	nop
+  94:	00000013          	nop
+  98:	00000013          	nop
+  9c:	00000013          	nop
+  a0:	00000013          	nop
+  a4:	00000013          	nop
+  a8:	00000013          	nop
+  ac:	00000013          	nop
+  b0:	00000013          	nop
+  b4:	00000013          	nop
+  b8:	00000013          	nop
+  bc:	00000013          	nop
+  c0:	22b68693          	addi	a3,a3,555
+
+000000c4 <test_3>:
+  c4:	00000013          	nop
+  c8:	30900e93          	li	t4,777
+  cc:	00300193          	li	gp,3
+  d0:	01d69463          	bne	a3,t4,d8 <fail>
+  d4:	00301863          	bne	zero,gp,e4 <pass>
+
+000000d8 <fail>:
+  d8:	00100d13          	li	s10,1
+  dc:	00000d93          	li	s11,0
+
+000000e0 <loop_fail>:
+  e0:	0000006f          	j	e0 <loop_fail>
+
+000000e4 <pass>:
+  e4:	00100d13          	li	s10,1
+  e8:	00100d93          	li	s11,1
+
+000000ec <loop_pass>:
+  ec:	0000006f          	j	ec <loop_pass>
+	...
+
+Disassembly of section .data:
+
+00001000 <begin_signature>:
+    1000:	14d68693          	addi	a3,a3,333
+	...
+
+Disassembly of section .tohost:
+
+00001040 <tohost>:
+	...
+
+00001080 <fromhost>:
+	...

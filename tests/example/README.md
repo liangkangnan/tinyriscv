@@ -1,0 +1,1 @@
+a simple c program which can run on tinyriscv.

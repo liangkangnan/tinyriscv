@@ -1,0 +1,23 @@
+
+generated/rv32ui-p-simple:     file format elf32-littleriscv
+
+
+Disassembly of section .text.init:
+
+00000000 <_start>:
+   0:	00000d13          	li	s10,0
+   4:	00000d93          	li	s11,0
+   8:	00100d13          	li	s10,1
+   c:	00100d93          	li	s11,1
+
+00000010 <loop_pass>:
+  10:	0000006f          	j	10 <loop_pass>
+	...
+
+Disassembly of section .tohost:
+
+00000080 <tohost>:
+	...
+
+000000c0 <fromhost>:
+	...

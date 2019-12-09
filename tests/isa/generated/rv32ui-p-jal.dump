@@ -1,0 +1,61 @@
+
+generated/rv32ui-p-jal:     file format elf32-littleriscv
+
+
+Disassembly of section .text.init:
+
+00000000 <_start>:
+   0:	00000d13          	li	s10,0
+   4:	00000d93          	li	s11,0
+
+00000008 <test_2>:
+   8:	00200193          	li	gp,2
+   c:	00000093          	li	ra,0
+  10:	0100026f          	jal	tp,20 <target_2>
+
+00000014 <linkaddr_2>:
+  14:	00000013          	nop
+  18:	00000013          	nop
+  1c:	0400006f          	j	5c <fail>
+
+00000020 <target_2>:
+  20:	00000117          	auipc	sp,0x0
+  24:	ff410113          	addi	sp,sp,-12 # 14 <linkaddr_2>
+  28:	02411a63          	bne	sp,tp,5c <fail>
+
+0000002c <test_3>:
+  2c:	00100093          	li	ra,1
+  30:	0140006f          	j	44 <test_3+0x18>
+  34:	00108093          	addi	ra,ra,1
+  38:	00108093          	addi	ra,ra,1
+  3c:	00108093          	addi	ra,ra,1
+  40:	00108093          	addi	ra,ra,1
+  44:	00108093          	addi	ra,ra,1
+  48:	00108093          	addi	ra,ra,1
+  4c:	00300e93          	li	t4,3
+  50:	00300193          	li	gp,3
+  54:	01d09463          	bne	ra,t4,5c <fail>
+  58:	00301863          	bne	zero,gp,68 <pass>
+
+0000005c <fail>:
+  5c:	00100d13          	li	s10,1
+  60:	00000d93          	li	s11,0
+
+00000064 <loop_fail>:
+  64:	0000006f          	j	64 <loop_fail>
+
+00000068 <pass>:
+  68:	00100d13          	li	s10,1
+  6c:	00100d93          	li	s11,1
+
+00000070 <loop_pass>:
+  70:	0000006f          	j	70 <loop_pass>
+	...
+
+Disassembly of section .tohost:
+
+000000c0 <tohost>:
+	...
+
+00000100 <fromhost>:
+	...

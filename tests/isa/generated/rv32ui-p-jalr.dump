@@ -1,0 +1,99 @@
+
+generated/rv32ui-p-jalr:     file format elf32-littleriscv
+
+
+Disassembly of section .text.init:
+
+00000000 <_start>:
+   0:	00000d13          	li	s10,0
+   4:	00000d93          	li	s11,0
+
+00000008 <test_2>:
+   8:	00200193          	li	gp,2
+   c:	00000293          	li	t0,0
+  10:	00000317          	auipc	t1,0x0
+  14:	01030313          	addi	t1,t1,16 # 20 <target_2>
+  18:	000302e7          	jalr	t0,t1
+
+0000001c <linkaddr_2>:
+  1c:	0c00006f          	j	dc <fail>
+
+00000020 <target_2>:
+  20:	00000317          	auipc	t1,0x0
+  24:	ffc30313          	addi	t1,t1,-4 # 1c <linkaddr_2>
+  28:	0a629a63          	bne	t0,t1,dc <fail>
+
+0000002c <test_4>:
+  2c:	00400193          	li	gp,4
+  30:	00000213          	li	tp,0
+  34:	00000317          	auipc	t1,0x0
+  38:	01030313          	addi	t1,t1,16 # 44 <test_4+0x18>
+  3c:	000309e7          	jalr	s3,t1
+  40:	08301e63          	bne	zero,gp,dc <fail>
+  44:	00120213          	addi	tp,tp,1 # 1 <_start+0x1>
+  48:	00200293          	li	t0,2
+  4c:	fe5214e3          	bne	tp,t0,34 <test_4+0x8>
+
+00000050 <test_5>:
+  50:	00500193          	li	gp,5
+  54:	00000213          	li	tp,0
+  58:	00000317          	auipc	t1,0x0
+  5c:	01430313          	addi	t1,t1,20 # 6c <test_5+0x1c>
+  60:	00000013          	nop
+  64:	000309e7          	jalr	s3,t1
+  68:	06301a63          	bne	zero,gp,dc <fail>
+  6c:	00120213          	addi	tp,tp,1 # 1 <_start+0x1>
+  70:	00200293          	li	t0,2
+  74:	fe5212e3          	bne	tp,t0,58 <test_5+0x8>
+
+00000078 <test_6>:
+  78:	00600193          	li	gp,6
+  7c:	00000213          	li	tp,0
+  80:	00000317          	auipc	t1,0x0
+  84:	01830313          	addi	t1,t1,24 # 98 <test_6+0x20>
+  88:	00000013          	nop
+  8c:	00000013          	nop
+  90:	000309e7          	jalr	s3,t1
+  94:	04301463          	bne	zero,gp,dc <fail>
+  98:	00120213          	addi	tp,tp,1 # 1 <_start+0x1>
+  9c:	00200293          	li	t0,2
+  a0:	fe5210e3          	bne	tp,t0,80 <test_6+0x8>
+
+000000a4 <test_7>:
+  a4:	00100293          	li	t0,1
+  a8:	00000317          	auipc	t1,0x0
+  ac:	01c30313          	addi	t1,t1,28 # c4 <test_7+0x20>
+  b0:	ffc30067          	jr	-4(t1)
+  b4:	00128293          	addi	t0,t0,1
+  b8:	00128293          	addi	t0,t0,1
+  bc:	00128293          	addi	t0,t0,1
+  c0:	00128293          	addi	t0,t0,1
+  c4:	00128293          	addi	t0,t0,1
+  c8:	00128293          	addi	t0,t0,1
+  cc:	00400e93          	li	t4,4
+  d0:	00700193          	li	gp,7
+  d4:	01d29463          	bne	t0,t4,dc <fail>
+  d8:	00301863          	bne	zero,gp,e8 <pass>
+
+000000dc <fail>:
+  dc:	00100d13          	li	s10,1
+  e0:	00000d93          	li	s11,0
+
+000000e4 <loop_fail>:
+  e4:	0000006f          	j	e4 <loop_fail>
+
+000000e8 <pass>:
+  e8:	00100d13          	li	s10,1
+  ec:	00100d93          	li	s11,1
+
+000000f0 <loop_pass>:
+  f0:	0000006f          	j	f0 <loop_pass>
+	...
+
+Disassembly of section .tohost:
+
+00000140 <tohost>:
+	...
+
+00000180 <fromhost>:
+	...
