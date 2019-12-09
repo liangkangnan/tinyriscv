@@ -32,27 +32,4 @@ Open the CMD and go to the sim directory and run command below:
 
 You can see the following print if it run successfully:
 
-E:\OpenSource\mygitee\open\tinyriscv\sim>sim_new_nowave.bat ..\tests\isa\generat
-ed\rv32ui-p-add.bin inst.data
-
-E:\OpenSource\mygitee\open\tinyriscv\sim>..\tools\BinToMem_CLI.exe ..\tests\isa\
-generated\rv32ui-p-add.bin inst.data
-
-E:\OpenSource\mygitee\open\tinyriscv\sim>iverilog -s openriscv_core_tb -o out.vv
-p -I ..\rtl openriscv_core_tb.v ..\rtl\defines.v ..\rtl\ex.v ..\rtl\id.v ..\rtl\
-openriscv_core.v ..\rtl\pc_reg.v ..\rtl\regs.v ..\rtl\sim_ram.v ..\rtl\if_id.v
-
-E:\OpenSource\mygitee\open\tinyriscv\sim>vvp out.vvp
-test running...
-WARNING: openriscv_core_tb.v:63: $readmemh(inst.data): Not enough words in the f
-ile for the requested range [0:2047].
-VCD info: dumpfile openriscv_core_tb.vcd opened for output.
-~~~~~~~~~~~~~~~~~~~ TEST_PASS ~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~~~~~~~~ #####     ##     ####    #### ~~~~~~~~~
-~~~~~~~~~ #    #   #  #   #       #     ~~~~~~~~~
-~~~~~~~~~ #    #  #    #   ####    #### ~~~~~~~~~
-~~~~~~~~~ #####   ######       #       #~~~~~~~~~
-~~~~~~~~~ #       #    #  #    #  #    #~~~~~~~~~
-~~~~~~~~~ #       #    #   ####    #### ~~~~~~~~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+!(https://github.com/liangkangnan/tinyriscv/blob/master/pic/add.jpg?raw=true)
