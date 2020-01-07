@@ -35,4 +35,4 @@ sim_new_nowave.bat ..\tests\isa\generated\rv32ui-p-add.bin inst.data
 
 You can see the following print if it run successfully:
 
-![](https://github.com/liangkangnan/tinyriscv/blob/master/pic/add.jpg?raw=true)
+![](./pic/add.jpg)
