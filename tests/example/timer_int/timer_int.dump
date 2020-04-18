@@ -1,0 +1,186 @@
+
+timer_int:     file format elf32-littleriscv
+
+
+Disassembly of section .init:
+
+00000000 <_start>:
+   0:	10001197          	auipc	gp,0x10001
+   4:	80018193          	addi	gp,gp,-2048 # 10000800 <__global_pointer$>
+   8:	10002117          	auipc	sp,0x10002
+   c:	ff810113          	addi	sp,sp,-8 # 10002000 <_sp>
+  10:	00000d13          	li	s10,0
+  14:	00000d93          	li	s11,0
+  18:	1f400513          	li	a0,500
+  1c:	10000597          	auipc	a1,0x10000
+  20:	fe458593          	addi	a1,a1,-28 # 10000000 <_data>
+  24:	10000617          	auipc	a2,0x10000
+  28:	fdc60613          	addi	a2,a2,-36 # 10000000 <_data>
+  2c:	00c5fc63          	bgeu	a1,a2,44 <_start+0x44>
+  30:	00052283          	lw	t0,0(a0)
+  34:	0055a023          	sw	t0,0(a1)
+  38:	00450513          	addi	a0,a0,4
+  3c:	00458593          	addi	a1,a1,4
+  40:	fec5e8e3          	bltu	a1,a2,30 <_start+0x30>
+  44:	10000517          	auipc	a0,0x10000
+  48:	fbc50513          	addi	a0,a0,-68 # 10000000 <_data>
+  4c:	80818593          	addi	a1,gp,-2040 # 10000008 <_end>
+  50:	00b57863          	bgeu	a0,a1,60 <_start+0x60>
+  54:	00052023          	sw	zero,0(a0)
+  58:	00450513          	addi	a0,a0,4
+  5c:	feb56ce3          	bltu	a0,a1,54 <_start+0x54>
+  60:	184000ef          	jal	ra,1e4 <_init>
+  64:	00c000ef          	jal	ra,70 <main>
+  68:	00100d13          	li	s10,1
+
+0000006c <loop>:
+  6c:	0000006f          	j	6c <loop>
+
+Disassembly of section .text:
+
+00000070 <main>:
+  70:	100007b7          	lui	a5,0x10000
+  74:	00078713          	mv	a4,a5
+  78:	00072023          	sw	zero,0(a4)
+  7c:	1f400693          	li	a3,500
+  80:	20000737          	lui	a4,0x20000
+  84:	00d72423          	sw	a3,8(a4) # 20000008 <_sp+0xfffe008>
+  88:	00700693          	li	a3,7
+  8c:	00d72023          	sw	a3,0(a4)
+  90:	00078793          	mv	a5,a5
+  94:	00200713          	li	a4,2
+  98:	0007a683          	lw	a3,0(a5) # 10000000 <_data>
+  9c:	fee69ee3          	bne	a3,a4,98 <main+0x28>
+  a0:	20000737          	lui	a4,0x20000
+  a4:	00072023          	sw	zero,0(a4) # 20000000 <_sp+0xfffe000>
+  a8:	0007a023          	sw	zero,0(a5)
+  ac:	00100d93          	li	s11,1
+  b0:	00000513          	li	a0,0
+  b4:	00008067          	ret
+
+000000b8 <trap_entry>:
+  b8:	f8010113          	addi	sp,sp,-128
+  bc:	00112223          	sw	ra,4(sp)
+  c0:	00212423          	sw	sp,8(sp)
+  c4:	00312623          	sw	gp,12(sp)
+  c8:	00412823          	sw	tp,16(sp)
+  cc:	00512a23          	sw	t0,20(sp)
+  d0:	00612c23          	sw	t1,24(sp)
+  d4:	00712e23          	sw	t2,28(sp)
+  d8:	02812023          	sw	s0,32(sp)
+  dc:	02912223          	sw	s1,36(sp)
+  e0:	02a12423          	sw	a0,40(sp)
+  e4:	02b12623          	sw	a1,44(sp)
+  e8:	02c12823          	sw	a2,48(sp)
+  ec:	02d12a23          	sw	a3,52(sp)
+  f0:	02e12c23          	sw	a4,56(sp)
+  f4:	02f12e23          	sw	a5,60(sp)
+  f8:	05012023          	sw	a6,64(sp)
+  fc:	05112223          	sw	a7,68(sp)
+ 100:	05212423          	sw	s2,72(sp)
+ 104:	05312623          	sw	s3,76(sp)
+ 108:	05412823          	sw	s4,80(sp)
+ 10c:	05512a23          	sw	s5,84(sp)
+ 110:	05612c23          	sw	s6,88(sp)
+ 114:	05712e23          	sw	s7,92(sp)
+ 118:	07812023          	sw	s8,96(sp)
+ 11c:	07912223          	sw	s9,100(sp)
+ 120:	07c12823          	sw	t3,112(sp)
+ 124:	07d12a23          	sw	t4,116(sp)
+ 128:	07e12c23          	sw	t5,120(sp)
+ 12c:	07f12e23          	sw	t6,124(sp)
+ 130:	34202573          	csrr	a0,mcause
+ 134:	0ac000ef          	jal	ra,1e0 <trap_handler>
+ 138:	00412083          	lw	ra,4(sp)
+ 13c:	00812103          	lw	sp,8(sp)
+ 140:	00c12183          	lw	gp,12(sp)
+ 144:	01012203          	lw	tp,16(sp)
+ 148:	01412283          	lw	t0,20(sp)
+ 14c:	01812303          	lw	t1,24(sp)
+ 150:	01c12383          	lw	t2,28(sp)
+ 154:	02012403          	lw	s0,32(sp)
+ 158:	02412483          	lw	s1,36(sp)
+ 15c:	02812503          	lw	a0,40(sp)
+ 160:	02c12583          	lw	a1,44(sp)
+ 164:	03012603          	lw	a2,48(sp)
+ 168:	03412683          	lw	a3,52(sp)
+ 16c:	03812703          	lw	a4,56(sp)
+ 170:	03c12783          	lw	a5,60(sp)
+ 174:	04012803          	lw	a6,64(sp)
+ 178:	04412883          	lw	a7,68(sp)
+ 17c:	04812903          	lw	s2,72(sp)
+ 180:	04c12983          	lw	s3,76(sp)
+ 184:	05012a03          	lw	s4,80(sp)
+ 188:	05412a83          	lw	s5,84(sp)
+ 18c:	05812b03          	lw	s6,88(sp)
+ 190:	05c12b83          	lw	s7,92(sp)
+ 194:	06012c03          	lw	s8,96(sp)
+ 198:	06412c83          	lw	s9,100(sp)
+ 19c:	07012e03          	lw	t3,112(sp)
+ 1a0:	07412e83          	lw	t4,116(sp)
+ 1a4:	07812f03          	lw	t5,120(sp)
+ 1a8:	07c12f83          	lw	t6,124(sp)
+ 1ac:	08010113          	addi	sp,sp,128
+ 1b0:	30200073          	mret
+ 1b4:	0000006f          	j	1b4 <trap_entry+0xfc>
+
+000001b8 <timer0_irq_handler>:
+ 1b8:	20000737          	lui	a4,0x20000
+ 1bc:	00072783          	lw	a5,0(a4) # 20000000 <_sp+0xfffe000>
+ 1c0:	0057e793          	ori	a5,a5,5
+ 1c4:	00f72023          	sw	a5,0(a4)
+ 1c8:	100007b7          	lui	a5,0x10000
+ 1cc:	00078793          	mv	a5,a5
+ 1d0:	0007a703          	lw	a4,0(a5) # 10000000 <_data>
+ 1d4:	00170713          	addi	a4,a4,1
+ 1d8:	00e7a023          	sw	a4,0(a5)
+ 1dc:	00008067          	ret
+
+000001e0 <trap_handler>:
+ 1e0:	fd9ff06f          	j	1b8 <timer0_irq_handler>
+
+000001e4 <_init>:
+ 1e4:	000007b7          	lui	a5,0x0
+ 1e8:	0b878793          	addi	a5,a5,184 # b8 <trap_entry>
+ 1ec:	30579073          	csrw	mtvec,a5
+ 1f0:	00008067          	ret
+
+Disassembly of section .bss:
+
+10000000 <__bss_start>:
+10000000:	0000                	unimp
+	...
+
+Disassembly of section .stack:
+
+10001800 <_sp-0x800>:
+	...
+
+Disassembly of section .comment:
+
+00000000 <.comment>:
+   0:	3a434347          	fmsub.d	ft6,ft6,ft4,ft7,rmm
+   4:	2820                	fld	fs0,80(s0)
+   6:	20554e47          	fmsub.s	ft8,fa0,ft5,ft4,rmm
+   a:	434d                	li	t1,19
+   c:	2055                	jal	b0 <main+0x40>
+   e:	6345                	lui	t1,0x11
+  10:	696c                	flw	fa1,84(a0)
+  12:	7370                	flw	fa2,100(a4)
+  14:	2065                	jal	bc <trap_entry+0x4>
+  16:	4952                	lw	s2,20(sp)
+  18:	562d4353          	0x562d4353
+  1c:	4520                	lw	s0,72(a0)
+  1e:	626d                	lui	tp,0x1b
+  20:	6465                	lui	s0,0x19
+  22:	6564                	flw	fs1,76(a0)
+  24:	2064                	fld	fs1,192(s0)
+  26:	2c434347          	0x2c434347
+  2a:	3620                	fld	fs0,104(a2)
+  2c:	2d34                	fld	fa3,88(a0)
+  2e:	6962                	flw	fs2,24(sp)
+  30:	2974                	fld	fa3,208(a0)
+  32:	3820                	fld	fs0,112(s0)
+  34:	322e                	fld	ft4,232(sp)
+  36:	302e                	fld	ft0,232(sp)
+	...

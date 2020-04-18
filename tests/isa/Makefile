@@ -7,6 +7,7 @@ XLEN := 32
 src_dir := .
 
 include $(src_dir)/rv32ui/Makefrag
+include $(src_dir)/rv32um/Makefrag
 
 default: all
 
@@ -49,6 +50,7 @@ tests += $$($(1)_tests)
 endef
 
 $(eval $(call compile_template,rv32ui,-march=rv32i -mabi=ilp32))
+$(eval $(call compile_template,rv32um,-march=rv32im -mabi=ilp32))
 
 
 tests_verilog = $(addsuffix .verilog, $(tests))
