@@ -33,7 +33,7 @@
 
 tinyriscv的整体框架如下：
 
-![tinyriscv整体框架](./pic/arch.jpg)
+![tinyriscv整体框架](https://github.com/liangkangnan/tinyriscv/blob/master/pic/arch.jpg)
 
 tinyriscv目前外挂了5个外设，每个外设的空间大小为256MB，地址空间分配如下图所示：
 
@@ -43,13 +43,13 @@ tinyriscv目前外挂了5个外设，每个外设的空间大小为256MB，地�
 
 目前tinyriscv在Xilinx Artix-7 35T FPGA平台上运行CoreMark跑分程序的结果如下图所示：
 
-![tinyriscv跑分](./pic/tinyriscv_coremark.png)
+![tinyriscv跑分](https://github.com/liangkangnan/tinyriscv/blob/master/pic/tinyriscv_coremark.png)
 
 可知，tinyriscv的跑分成绩为2.4。此成绩是基于指令在rom存储和数据在ram存储的情况下得出的，如果指令和数据都在ram的话跑分上3.0问题应该不大。
 
 选了几款其他MCU的跑分结果如下图所示：
 
-![其他MCU跑分结果](./pic/other_coremark.png)
+![其他MCU跑分结果](https://github.com/liangkangnan/tinyriscv/blob/master/pic/other_coremark.png)
 
 更多MCU的跑分结果，可以到[coremark](https://www.eembc.org/coremark/scores.php)官网查询。
 
@@ -83,7 +83,7 @@ tinyriscv目前外挂了5个外设，每个外设的空间大小为256MB，地�
 
 如果运行成功的话就可以看到&quot;PASS&quot;的打印。其他指令使用方法类似。
 
-![](./pic/test_output.png)
+![](https://github.com/liangkangnan/tinyriscv/blob/master/pic/test_output.png)
 
 ## 4.3运行C语言程序
 
