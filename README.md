@@ -32,19 +32,23 @@
 **pic**：存放图片；
 
 tinyriscv的整体框架如下：
+
 <img src="https://github.com/liangkangnan/tinyriscv/blob/master/pic/arch.jpg">
 
 tinyriscv目前外挂了5个外设，每个外设的空间大小为256MB，地址空间分配如下图所示：
+
 <img src="https://github.com/liangkangnan/tinyriscv/blob/master/pic/addr_alloc.jpg">
 
 # 3.CoreMark测试
 
 目前tinyriscv在Xilinx Artix-7 35T FPGA平台上运行CoreMark跑分程序的结果如下图所示：
+
 <img src="https://github.com/liangkangnan/tinyriscv/blob/master/pic/tinyriscv_coremark.png">
 
 可知，tinyriscv的跑分成绩为2.4。此成绩是基于指令在rom存储和数据在ram存储的情况下得出的，如果指令和数据都在ram的话跑分上3.0问题应该不大。
 
 选了几款其他MCU的跑分结果如下图所示：
+
 <img src="https://github.com/liangkangnan/tinyriscv/blob/master/pic/other_coremark.png">
 
 更多MCU的跑分结果，可以到[coremark](https://www.eembc.org/coremark/scores.php)官网查询。
