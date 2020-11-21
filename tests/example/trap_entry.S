@@ -45,8 +45,19 @@ trap_entry:
     STORE x31, 31*REGBYTES(sp)
 
     csrr a0, mcause
-    call trap_handler
+    csrr a1, mepc
+test_if_asynchronous:
+	srli a2, a0, 31		                /* MSB of mcause is 1 if handing an asynchronous interrupt - shift to LSB to clear other bits. */
+	beq a2, x0, handle_synchronous		/* Branch past interrupt handing if not asynchronous. */
 
+    call trap_handler
+    j asynchronous_return
+
+handle_synchronous:
+    addi a1, a1, 4
+    csrw mepc, a1
+
+asynchronous_return:
     LOAD x1, 1*REGBYTES(sp)
     LOAD x2, 2*REGBYTES(sp)
     LOAD x3, 3*REGBYTES(sp)

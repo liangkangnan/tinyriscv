@@ -16,9 +16,12 @@ all: $(TARGET)
 ASM_SRCS += $(COMMON_DIR)/start.S
 ASM_SRCS += $(COMMON_DIR)/trap_entry.S
 C_SRCS += $(COMMON_DIR)/init.c
+C_SRCS += $(COMMON_DIR)/trap_handler.c
 C_SRCS += $(COMMON_DIR)/lib/utils.c
 C_SRCS += $(COMMON_DIR)/lib/xprintf.c
 C_SRCS += $(COMMON_DIR)/lib/uart.c
+C_SRCS += $(COMMON_DIR)/lib/flash_n25q.c
+C_SRCS += $(COMMON_DIR)/lib/spi.c
 
 LINKER_SCRIPT := $(COMMON_DIR)/link.lds
 
@@ -38,7 +41,7 @@ CFLAGS += -march=$(RISCV_ARCH)
 CFLAGS += -mabi=$(RISCV_ABI)
 CFLAGS += -mcmodel=$(RISCV_MCMODEL) -ffunction-sections -fdata-sections -fno-builtin-printf -fno-builtin-malloc
 
-$(TARGET): $(LINK_OBJS) $(LINK_DEPS)
+$(TARGET): $(LINK_OBJS) $(LINK_DEPS) Makefile
 	$(RISCV_GCC) $(CFLAGS) $(INCLUDES) $(LINK_OBJS) -o $@ $(LDFLAGS)
 	$(RISCV_OBJCOPY) -O binary $@ $@.bin
 	$(RISCV_OBJDUMP) --disassemble-all $@ > $@.dump

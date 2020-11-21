@@ -52,15 +52,7 @@ secs_ret time_in_secs(CORE_TICKS ticks)
   return delta / (double)freq;
 }
 
-static void uart_putc(uint8_t c)
-{
-    while (UART0_REG(UART0_STATUS) & 0x1);
-    UART0_REG(UART0_TXDATA) = c;
-}
-
 void portable_init(core_portable *p, int *argc, char *argv[])
 {
-    UART0_REG(UART0_CTRL) = 0x1;
-
-    xdev_out(uart_putc);
+    uart_init();
 }

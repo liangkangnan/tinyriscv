@@ -4,14 +4,14 @@ ENTRY(_start)
 
 MEMORY
 {
-  flash (wxa!ri) : ORIGIN = 0x00000000, LENGTH = 8K
-  ram (wxa!ri) :   ORIGIN = 0x10000000, LENGTH = 8K
+  flash (wxa!ri) : ORIGIN = 0x00000000, LENGTH = 16K
+  ram (wxa!ri) :   ORIGIN = 0x10000000, LENGTH = 16K
 }
 
 
 SECTIONS
 {
-   __stack_size = DEFINED(__stack_size) ? __stack_size : 2K;
+   __stack_size = DEFINED(__stack_size) ? __stack_size : 8K;
 
   .init           :
   {
@@ -142,6 +142,7 @@ SECTIONS
     PROVIDE( _heap_end = . );
     . = __stack_size;
     PROVIDE( _sp = . );
+    __freertos_irq_stack_top = .;
   } >ram AT>ram
 
 }

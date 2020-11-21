@@ -1,4 +1,7 @@
 import os
+import subprocess
+import sys
+
 
 # 找出path目录下的所有bin文件
 def list_binfiles(path):
@@ -12,25 +15,29 @@ def list_binfiles(path):
 
     return files
 
+# 主函数
+def main():
+    bin_files = list_binfiles(r'../tests/isa/generated')
 
-files = list_binfiles('..\\tests\\isa\\generated')
+    anyfail = False
+
+    # 对每一个bin文件进行测试
+    for file in bin_files:
+        #print(file)
+        cmd = r'python sim_new_nowave.py' + ' ' + file + ' ' + 'inst.data'
+        f = os.popen(cmd)
+        r = f.read()
+        f.close()
+        if (r.find('TEST_PASS') != -1):
+            print(file + '    PASS')
+        else:
+            print(file + '    !!!FAIL!!!')
+            anyfail = True
+            break
+
+    if (anyfail == False):
+        print('Congratulation, All PASS...')
 
 
-anyfail = False
-
-# 对每一个bin文件进行测试
-for file in files:
-    #print(file)
-    cmd = '.\\sim_new_nowave.bat ' + file + ' inst.data'
-    f = os.popen(cmd)
-    r = f.read()
-    f.close()
-    if (r.find('TEST_PASS') != -1):
-        print(file + '    PASS')
-    else:
-        print(file + '    !!!FAIL!!!')
-        anyfail = True
-        break
-
-if (anyfail == False):
-    print('Congratulation, All PASS...')
+if __name__ == '__main__':
+    sys.exit(main())

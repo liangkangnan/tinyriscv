@@ -2,6 +2,3 @@
 *.o
 *.ko
 *.obj
-*.elf
-
-tools/gnu-mcu-eclipse-riscv-none-gcc-8.2.0-2.2-20190521-0004-win64

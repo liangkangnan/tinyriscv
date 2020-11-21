@@ -110,10 +110,13 @@
 `define INST_LUI    7'b0110111
 `define INST_AUIPC  7'b0010111
 `define INST_NOP    32'h00000001
+`define INST_NOP_OP 7'b0000001
 `define INST_MRET   32'h30200073
 `define INST_RET    32'h00008067
 
 `define INST_FENCE  7'b0001111
+`define INST_ECALL  32'h73
+`define INST_EBREAK 32'h00100073
 
 // J type inst
 `define INST_TYPE_B 7'b1100011
@@ -139,10 +142,13 @@
 `define CSR_MTVEC   12'h305
 `define CSR_MCAUSE  12'h342
 `define CSR_MEPC    12'h341
+`define CSR_MIE     12'h304
+`define CSR_MSTATUS 12'h300
+`define CSR_MSCRATCH 12'h340
 
-`define RomNum 2048  // rom depth(how many words)
+`define RomNum 4096  // rom depth(how many words)
 
-`define MemNum 2048  // memory depth(how many words)
+`define MemNum 4096  // memory depth(how many words)
 `define MemBus 31:0
 `define MemAddrBus 31:0
 

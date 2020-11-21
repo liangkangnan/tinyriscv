@@ -14,7 +14,7 @@
  limitations under the License.                                          
  */
 
-`include "defines.v"
+`include "../core/defines.v"
 
 
 module rom(
@@ -25,10 +25,8 @@ module rom(
     input wire we_i,                   // write enable
     input wire[`MemAddrBus] addr_i,    // addr
     input wire[`MemBus] data_i,
-    input wire req_i,
 
-    output reg[`MemBus] data_o,        // read data
-    output reg ack_o
+    output reg[`MemBus] data_o         // read data
 
     );
 
@@ -36,20 +34,16 @@ module rom(
 
 
     always @ (posedge clk) begin
-        if (rst == `RstEnable) begin
-            ack_o <= `RIB_ACK;
-        end else begin
-            if (we_i == `WriteEnable) begin
-                _rom[addr_i[31:2]] <= data_i;
-            end
+        if (we_i == `WriteEnable) begin
+            _rom[addr_i[31:2]] <= data_i;
         end
     end
 
     always @ (*) begin
         if (rst == `RstEnable) begin
-            data_o <= `ZeroWord;
+            data_o = `ZeroWord;
         end else begin
-            data_o <= _rom[addr_i[31:2]];
+            data_o = _rom[addr_i[31:2]];
         end
     end
 

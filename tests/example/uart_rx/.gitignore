@@ -1,0 +1,7 @@
+# Object files
+*.o
+*.ko
+*.obj
+uart_rx.bin
+uart_rx.dump
+uart_rx

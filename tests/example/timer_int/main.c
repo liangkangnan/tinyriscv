@@ -29,7 +29,7 @@ int main()
     TIMER0_REG(TIMER0_VALUE) = 500000;  // 10ms period
     TIMER0_REG(TIMER0_CTRL) = 0x07;     // enable interrupt and start timer
 
-    GPIO_REG(GPIO_DATA) = 0x1;
+    GPIO_REG(GPIO_CTRL) |= 0x1;  // set gpio0 output mode
 
     while (1) {
         // 500ms
