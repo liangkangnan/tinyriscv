@@ -1,7 +1,0 @@
-# Object files
-*.o
-*.ko
-*.obj
-uart_tx.bin
-uart_tx.dump
-uart_tx

@@ -156,7 +156,7 @@
 
 打开一个CMD窗口，然后cd进入到tinyriscv项目的tools/openocd目录，执行命令：
 
-`openocd.exe -f tinyriscv.cfg`
+`openocd.exe -f tinyriscv_cmsisdap.cfg`
 
 如果执行成功的话则会如下图所示：
 
@@ -182,22 +182,6 @@
 
 **注意：每次下载程序前记得先执行halt命令停住CPU。**
 
-## 3.2通过UART方式下载
-
-通过UART方式下载前需要先使能UART debug模块。在约束文件里指定的uart_debug_en引脚，当其输入为高电平时表示使能UART debug模块，输入为低电平时表示关闭UART debug模块。
-
-当使能了UART debug模块后，就可以通过tools/tinyriscv_fw_downloader.py脚本来下载程序。
-
-tinyriscv_fw_downloader.py脚本使用方法：
-
-`python tinyriscv_fw_downloader.py 串口号 bin文件`
-
-打开CMD窗口，进入到tools目录，比如输入以下命令：
-
-![uart_debug](./images/uart_debug.png)
-
-即可下载freertos.bin程序到软核里。下载完后，先关闭UART debug模块，然后按板子上的复位(rst)按键即可让程序跑起来。
-
 # 4.Vivado仿真设置
 
 如果要在vivado里进行RTL仿真的话，还需要添加tb目录里的tinyriscv_soc_tb.v文件，具体方法和添加RTL源文件类似，只是在源文件类型里选择simulation sources，如下图所示：
@@ -213,7 +197,7 @@ tinyriscv_fw_downloader.py脚本使用方法：
 ```
     // read mem data
     initial begin
-        $readmemh ("F://yourpath/inst.data", tinyriscv_soc_top_0.u_rom._rom);
+        $readmemh ("F://yourpath/inst.data", tinyriscv_soc_top_0.u_rom.u_gen_ram.ram);
     end
 ```
 

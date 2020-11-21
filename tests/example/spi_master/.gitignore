@@ -1,7 +1,0 @@
-# Object files
-*.o
-*.ko
-*.obj
-spi_master.bin
-spi_master.dump
-spi_master

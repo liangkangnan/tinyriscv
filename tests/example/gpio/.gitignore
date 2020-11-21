@@ -1,7 +1,0 @@
-# Object files
-*.o
-*.ko
-*.obj
-gpio.bin
-gpio.dump
-gpio
