@@ -28,6 +28,7 @@ int main()
     // sum = 7550
     sum = sum / div;
 
+    // #TODO@zhan Use gtest.
     if (sum == 7550)
         set_test_pass();
     else
