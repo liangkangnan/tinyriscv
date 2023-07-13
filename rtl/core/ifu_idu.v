@@ -17,36 +17,32 @@
 `include "defines.v"
 
 // 将指令向译码模块传递
-module if_id(
+module ifu_idu(
 
     input wire clk,
-    input wire rst,
+    input wire rst_n,
 
-    input wire[`InstBus] inst_i,            // 指令内容
-    input wire[`InstAddrBus] inst_addr_i,   // 指令地址
+    input wire[31:0] inst_i,                // 指令内容
+    input wire[31:0] inst_addr_i,           // 指令地址
+    input wire[`STALL_WIDTH-1:0] stall_i,   // 流水线暂停
+    input wire flush_i,                     // 流水线冲刷
+    input wire inst_valid_i,
 
-    input wire[`Hold_Flag_Bus] hold_flag_i, // 流水线暂停标志
-
-    input wire[`INT_BUS] int_flag_i,        // 外设中断输入信号
-    output wire[`INT_BUS] int_flag_o,
-
-    output wire[`InstBus] inst_o,           // 指令内容
-    output wire[`InstAddrBus] inst_addr_o   // 指令地址
+    output wire[31:0] inst_o,               // 指令内容
+    output wire[31:0] inst_addr_o           // 指令地址
 
     );
 
-    wire hold_en = (hold_flag_i >= `Hold_If);
+    wire en = !stall_i[`STALL_ID] | flush_i;
 
-    wire[`InstBus] inst;
-    gen_pipe_dff #(32) inst_ff(clk, rst, hold_en, `INST_NOP, inst_i, inst);
+    wire[31:0] i_inst = (flush_i)? `INST_NOP: inst_i;
+    wire[31:0] inst;
+    gen_en_dff #(32) inst_ff(clk, rst_n, en, i_inst, inst);
     assign inst_o = inst;
 
-    wire[`InstAddrBus] inst_addr;
-    gen_pipe_dff #(32) inst_addr_ff(clk, rst, hold_en, `ZeroWord, inst_addr_i, inst_addr);
+    wire[31:0] i_inst_addr = flush_i? 32'h0: inst_addr_i;
+    wire[31:0] inst_addr;
+    gen_en_dff #(32) inst_addr_ff(clk, rst_n, en, i_inst_addr, inst_addr);
     assign inst_addr_o = inst_addr;
-
-    wire[`INT_BUS] int_flag;
-    gen_pipe_dff #(8) int_ff(clk, rst, hold_en, `INT_NONE, int_flag_i, int_flag);
-    assign int_flag_o = int_flag;
 
 endmodule

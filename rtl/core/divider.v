@@ -19,23 +19,18 @@
 // 除法模块
 // 试商法实现32位整数除法
 // 每次除法运算至少需要33个时钟周期才能完成
-module div(
+module divider(
 
     input wire clk,
-    input wire rst,
+    input wire rst_n,
 
-    // from ex
-    input wire[`RegBus] dividend_i,      // 被除数
-    input wire[`RegBus] divisor_i,       // 除数
-    input wire start_i,                  // 开始信号，运算期间这个信号需要一直保持有效
-    input wire[2:0] op_i,                // 具体是哪一条指令
-    input wire[`RegAddrBus] reg_waddr_i, // 运算结束后需要写的寄存器
+    input wire[31:0] dividend_i,        // 被除数
+    input wire[31:0] divisor_i,         // 除数
+    input wire start_i,                 // 开始信号，运算期间这个信号需要一直保持有效
+    input wire[3:0] op_i,               // 具体是哪一条指令
 
-    // to ex
-    output reg[`RegBus] result_o,        // 除法结果，高32位是余数，低32位是商
-    output reg ready_o,                  // 运算结束信号
-    output reg busy_o,                  // 正在运算信号
-    output reg[`RegAddrBus] reg_waddr_o  // 运算结束后需要写的寄存器
+    output reg[31:0] result_o,          // 除法结果，高32位是余数，低32位是商
+    output reg ready_o                  // 运算结束信号
 
     );
 
@@ -45,20 +40,20 @@ module div(
     localparam STATE_CALC  = 4'b0100;
     localparam STATE_END   = 4'b1000;
 
-    reg[`RegBus] dividend_r;
-    reg[`RegBus] divisor_r;
-    reg[2:0] op_r;
+    reg[31:0] dividend_r;
+    reg[31:0] divisor_r;
+    reg[3:0] op_r;
     reg[3:0] state;
     reg[31:0] count;
-    reg[`RegBus] div_result;
-    reg[`RegBus] div_remain;
-    reg[`RegBus] minuend;
+    reg[31:0] div_result;
+    reg[31:0] div_remain;
+    reg[31:0] minuend;
     reg invert_result;
 
-    wire op_div = (op_r == `INST_DIV);
-    wire op_divu = (op_r == `INST_DIVU);
-    wire op_rem = (op_r == `INST_REM);
-    wire op_remu = (op_r == `INST_REMU);
+    wire op_div = op_r[3];
+    wire op_divu = op_r[2];
+    wire op_rem = op_r[1];
+    wire op_remu = op_r[0];
 
     wire[31:0] dividend_invert = (-dividend_r);
     wire[31:0] divisor_invert = (-divisor_r);
@@ -68,61 +63,53 @@ module div(
     wire[31:0] minuend_tmp = minuend_ge_divisor? minuend_sub_res[30:0]: minuend[30:0];
 
     // 状态机实现
-    always @ (posedge clk) begin
-        if (rst == `RstEnable) begin
+    always @ (posedge clk or negedge rst_n) begin
+        if (!rst_n) begin
             state <= STATE_IDLE;
-            ready_o <= `DivResultNotReady;
-            result_o <= `ZeroWord;
-            div_result <= `ZeroWord;
-            div_remain <= `ZeroWord;
+            ready_o <= 1'b0;
+            result_o <= 32'h0;
+            div_result <= 32'h0;
+            div_remain <= 32'h0;
             op_r <= 3'h0;
-            reg_waddr_o <= `ZeroWord;
-            dividend_r <= `ZeroWord;
-            divisor_r <= `ZeroWord;
-            minuend <= `ZeroWord;
+            dividend_r <= 32'h0;
+            divisor_r <= 32'h0;
+            minuend <= 32'h0;
             invert_result <= 1'b0;
-            busy_o <= `False;
-            count <= `ZeroWord;
+            count <= 32'h0;
         end else begin
             case (state)
                 STATE_IDLE: begin
-                    if (start_i == `DivStart) begin
+                    if (start_i) begin
                         op_r <= op_i;
                         dividend_r <= dividend_i;
                         divisor_r <= divisor_i;
-                        reg_waddr_o <= reg_waddr_i;
                         state <= STATE_START;
-                        busy_o <= `True;
                     end else begin
                         op_r <= 3'h0;
-                        reg_waddr_o <= `ZeroWord;
-                        dividend_r <= `ZeroWord;
-                        divisor_r <= `ZeroWord;
-                        ready_o <= `DivResultNotReady;
-                        result_o <= `ZeroWord;
-                        busy_o <= `False;
+                        dividend_r <= 32'h0;
+                        divisor_r <= 32'h0;
+                        ready_o <= 1'b0;
+                        result_o <= 32'h0;
                     end
                 end
 
                 STATE_START: begin
-                    if (start_i == `DivStart) begin
+                    if (start_i) begin
                         // 除数为0
-                        if (divisor_r == `ZeroWord) begin
+                        if (divisor_r == 32'h0) begin
                             if (op_div | op_divu) begin
                                 result_o <= 32'hffffffff;
                             end else begin
                                 result_o <= dividend_r;
                             end
-                            ready_o <= `DivResultReady;
+                            ready_o <= 1'b1;
                             state <= STATE_IDLE;
-                            busy_o <= `False;
                         // 除数不为0
                         end else begin
-                            busy_o <= `True;
                             count <= 32'h40000000;
                             state <= STATE_CALC;
-                            div_result <= `ZeroWord;
-                            div_remain <= `ZeroWord;
+                            div_result <= 32'h0;
+                            div_remain <= 32'h0;
 
                             // DIV和REM这两条指令是有符号数运算指令
                             if (op_div | op_rem) begin
@@ -151,14 +138,13 @@ module div(
                         end
                     end else begin
                         state <= STATE_IDLE;
-                        result_o <= `ZeroWord;
-                        ready_o <= `DivResultNotReady;
-                        busy_o <= `False;
+                        result_o <= 32'h0;
+                        ready_o <= 1'b0;
                     end
                 end
 
                 STATE_CALC: begin
-                    if (start_i == `DivStart) begin
+                    if (start_i) begin
                         dividend_r <= {dividend_r[30:0], 1'b0};
                         div_result <= div_result_tmp;
                         count <= {1'b0, count[31:1]};
@@ -174,17 +160,15 @@ module div(
                         end
                     end else begin
                         state <= STATE_IDLE;
-                        result_o <= `ZeroWord;
-                        ready_o <= `DivResultNotReady;
-                        busy_o <= `False;
+                        result_o <= 32'h0;
+                        ready_o <= 1'b0;
                     end
                 end
 
                 STATE_END: begin
-                    if (start_i == `DivStart) begin
-                        ready_o <= `DivResultReady;
+                    if (start_i) begin
+                        ready_o <= 1'b1;
                         state <= STATE_IDLE;
-                        busy_o <= `False;
                         if (op_div | op_divu) begin
                             if (invert_result) begin
                                 result_o <= (-div_result);
@@ -200,9 +184,8 @@ module div(
                         end
                     end else begin
                         state <= STATE_IDLE;
-                        result_o <= `ZeroWord;
-                        ready_o <= `DivResultNotReady;
-                        busy_o <= `False;
+                        result_o <= 32'h0;
+                        ready_o <= 1'b0;
                     end
                 end
 

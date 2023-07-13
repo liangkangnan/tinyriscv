@@ -1,5 +1,5 @@
  /*                                                                      
- Copyright 2019 Blue Liang, liangkangnan@163.com
+ Copyright 2020 Blue Liang, liangkangnan@163.com
                                                                          
  Licensed under the Apache License, Version 2.0 (the "License");         
  you may not use this file except in compliance with the License.        
@@ -14,38 +14,44 @@
  limitations under the License.                                          
  */
 
-`include "defines.v"
 
-// PC寄存器模块
-module pc_reg(
+module vld_rdy #(
+    parameter CUT_READY = 0)(
 
     input wire clk,
-    input wire rst,
+    input wire rst_n,
 
-    input wire jump_flag_i,                 // 跳转标志
-    input wire[`InstAddrBus] jump_addr_i,   // 跳转地址
-    input wire[`Hold_Flag_Bus] hold_flag_i, // 流水线暂停标志
-    input wire jtag_reset_flag_i,           // 复位标志
-
-    output reg[`InstAddrBus] pc_o           // PC指针
+    input wire vld_i,
+    output wire rdy_o,
+    input wire rdy_i,
+    output wire vld_o
 
     );
 
+    wire vld_set;
+    wire vld_clr;
+    wire vld_ena;
+    wire vld_r;
+    wire vld_nxt;
 
-    always @ (posedge clk) begin
-        // 复位
-        if (rst == `RstEnable || jtag_reset_flag_i == 1'b1) begin
-            pc_o <= `CpuResetAddr;
-        // 跳转
-        end else if (jump_flag_i == `JumpEnable) begin
-            pc_o <= jump_addr_i;
-        // 暂停
-        end else if (hold_flag_i >= `Hold_Pc) begin
-            pc_o <= pc_o;
-        // 地址加4
-        end else begin
-            pc_o <= pc_o + 4'h4;
-        end
+    // The valid will be set when input handshaked
+    assign vld_set = vld_i & rdy_o;
+    // The valid will be clr when output handshaked
+    assign vld_clr = vld_o & rdy_i;
+
+    assign vld_ena = vld_set | vld_clr;
+    assign vld_nxt = vld_set | (~vld_clr);
+
+    gen_en_dff #(1) vld_dff(clk, rst_n, vld_ena, vld_nxt, vld_r);
+
+    assign vld_o = vld_r;
+
+    if (CUT_READY == 1) begin
+        // If cut ready, then only accept when stage is not full
+        assign rdy_o = (~vld_r);
+    end else begin
+        // If not cut ready, then can accept when stage is not full or it is popping 
+        assign rdy_o = (~vld_r) | vld_clr;
     end
 
 endmodule

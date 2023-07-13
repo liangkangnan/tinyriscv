@@ -1,17 +1,16 @@
 # 1.概述
 
-介绍如何将tinyriscv移植到FPGA平台上和如何通过JTAG或者UART下载程序到FPGA。
+在作者开发的基础上，将此项目移植到PGL22G开发板上。
 
-1.软件：xilinx vivado(以2018.1版本为例)开发环境。
+1.软件：Pango Design Suite 2021.1-SP7.3-ads
 
-2.FPGA：xilinx Artix-7 35T。
+2.FPGA：PGL22G。
 
-3.调试器：CMSIS-DAP或者DAPLink。
+3.调试器：CMSIS-DAP。
 
-这里只是以Xilinx平台为例，实际上可以移植到任何FPGA平台（只要资源足够）。
+# 2.代码移植
 
-# 2.FPGA移植步骤
-
+在移植中，最重要的问题是存储器资源问题。考虑到PGL22G上的DRAM资源不够，无法像作者在原来代码里面一样直接使用定义reg的方式来构造存储器，必须要使用BRAM的ip核。所以我参考了BRAM分支，在这个分支的基础上，将作者所使用的BRAM改成紫光同创提供的ram的ip核`ip_dual_port_ram`来实现移植。
 ## 2.1创建工程
 
 首先打开vivado软件，新建工程，方法如下图所示：

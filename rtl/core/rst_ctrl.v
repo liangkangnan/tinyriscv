@@ -14,53 +14,46 @@
  limitations under the License.                                          
  */
 
-`include "../core/defines.v"
+`include "defines.v"
 
-
-module ram #(
-    parameter DP = 4096)(
+// 复位控制模块
+module rst_ctrl(
 
     input wire clk,
-    input wire rst_n,
-    input wire[31:0] addr_i,
-    input wire[31:0] data_i,
-    input wire[3:0] sel_i,
-    input wire we_i,
-	output wire[31:0] data_o,
 
-    input wire req_valid_i,
-    output wire req_ready_o,
-    output wire rsp_valid_o,
-    input wire rsp_ready_i
+    input wire rst_ext_i,
+    input wire rst_jtag_i,
+
+    output wire core_rst_n_o,
+    output wire jtag_rst_n_o
 
     );
 
-    wire[31:0] addr = addr_i[31:2];
-    wire[3:0] wen;
-    assign wen = ({4{we_i}} & sel_i);  
+    wire ext_rst_r;
 
-    ip_dual_port_ram u_ip_ram(
-        .wr_data     ( data_i     ),
-        .wr_addr     ( addr     ),
-        .wr_en       ( we_i       ),
-        .wr_clk      ( clk      ),
-        .wr_rst      ( ~rst_n      ),
-        .wr_byte_en  ( wen  ),
-        .rd_data     ( data_o     ),
-        .rd_addr     ( addr     ),
-        .rd_clk      ( clk      ),
-        .rd_rst      ( ~rst_n      )
-    );
-
-    vld_rdy #(
-        .CUT_READY(0)
-    ) u_vld_rdy(
+    gen_ticks_sync #(
+        .DP(2),
+        .DW(1)
+    ) ext_rst_sync(
+        .rst_n(rst_ext_i),
         .clk(clk),
-        .rst_n(rst_n),
-        .vld_i(req_valid_i),
-        .rdy_o(req_ready_o),
-        .rdy_i(rsp_ready_i),
-        .vld_o(rsp_valid_o)
+        .din(1'b1),
+        .dout(ext_rst_r)
     );
+
+    reg[`JTAG_RESET_FF_LEVELS-1:0] jtag_rst_r;
+
+    always @ (posedge clk) begin
+        if (!rst_ext_i) begin
+            jtag_rst_r[`JTAG_RESET_FF_LEVELS-1:0] <= {`JTAG_RESET_FF_LEVELS{1'b1}};
+        end if (rst_jtag_i) begin
+            jtag_rst_r[`JTAG_RESET_FF_LEVELS-1:0] <= {`JTAG_RESET_FF_LEVELS{1'b0}};
+        end else begin
+            jtag_rst_r[`JTAG_RESET_FF_LEVELS-1:0] <= {jtag_rst_r[`JTAG_RESET_FF_LEVELS-2:0], 1'b1};
+        end
+    end
+
+    assign core_rst_n_o = ext_rst_r & jtag_rst_r[`JTAG_RESET_FF_LEVELS-1];
+    assign jtag_rst_n_o = ext_rst_r;
 
 endmodule
