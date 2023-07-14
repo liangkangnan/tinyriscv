@@ -34,11 +34,17 @@ module jtag_top #(
     output wire[4:0] reg_addr_o,
     output wire[31:0] reg_wdata_o,
     input wire[31:0] reg_rdata_i,
+
     output wire mem_we_o,
     output wire[31:0] mem_addr_o,
     output wire[31:0] mem_wdata_o,
     input wire[31:0] mem_rdata_i,
-    output wire op_req_o,
+    output wire[3:0] mem_sel_o,
+
+    output wire req_valid_o,
+    input wire req_ready_i,
+    input wire rsp_valid_i,
+    output wire rsp_ready_o,
 
     output wire halt_req_o,
     output wire reset_req_o
@@ -48,16 +54,15 @@ module jtag_top #(
     parameter DM_RESP_BITS = DMI_ADDR_BITS + DMI_DATA_BITS + DMI_OP_BITS;
     parameter DTM_REQ_BITS = DMI_ADDR_BITS + DMI_DATA_BITS + DMI_OP_BITS;
 
-    // jtag_driver
+    // jtag_driver输出信号
     wire dtm_ack_o;
     wire dtm_req_valid_o;
     wire[DTM_REQ_BITS - 1:0] dtm_req_data_o;
 
-    // jtag_dm
+    // jtag_dm输出信号
     wire dm_ack_o;
     wire[DM_RESP_BITS-1:0] dm_resp_data_o;
     wire dm_resp_valid_o;
-    wire dm_op_req_o;
     wire dm_halt_req_o;
     wire dm_reset_req_o;
 
@@ -100,7 +105,11 @@ module jtag_top #(
         .dm_mem_addr_o(mem_addr_o),
         .dm_mem_wdata_o(mem_wdata_o),
         .dm_mem_rdata_i(mem_rdata_i),
-        .dm_op_req_o(op_req_o),
+        .dm_mem_sel_o(mem_sel_o),
+        .req_valid_o(req_valid_o),
+        .req_ready_i(req_ready_i),
+        .rsp_valid_i(rsp_valid_i),
+        .rsp_ready_o(rsp_ready_o),
         .dm_halt_req_o(halt_req_o),
         .dm_reset_req_o(reset_req_o)
     );

@@ -1,5 +1,5 @@
  /*                                                                      
- Copyright 2019 Blue Liang, liangkangnan@163.com
+ Copyright 2020 Blue Liang, liangkangnan@163.com
                                                                          
  Licensed under the Apache License, Version 2.0 (the "License");         
  you may not use this file except in compliance with the License.        
@@ -16,35 +16,51 @@
 
 `include "../core/defines.v"
 
-// ram module
-module ram(
+
+module ram #(
+    parameter DP = 4096)(
 
     input wire clk,
-    input wire rst,
+    input wire rst_n,
+    input wire[31:0] addr_i,
+    input wire[31:0] data_i,
+    input wire[3:0] sel_i,
+    input wire we_i,
+	output wire[31:0] data_o,
 
-    input wire we_i,                   // write enable
-    input wire[`MemAddrBus] addr_i,    // addr
-    input wire[`MemBus] data_i,
-
-    output reg[`MemBus] data_o         // read data
+    input wire req_valid_i,
+    output wire req_ready_o,
+    output wire rsp_valid_o,
+    input wire rsp_ready_i
 
     );
 
-    reg[`MemBus] _ram[0:`MemNum - 1];
+    wire[31:0] addr = addr_i[31:2];
+    wire[3:0] wen;
+    assign wen = ({4{we_i}} & sel_i);  
 
+    ip_dual_port_ram u_ip_ram(
+        .wr_data     ( data_i     ),
+        .wr_addr     ( addr     ),
+        .wr_en       ( we_i       ),
+        .wr_clk      ( clk      ),
+        .wr_rst      ( ~rst_n      ),
+        .wr_byte_en  ( wen  ),
+        .rd_data     ( data_o     ),
+        .rd_addr     ( addr     ),
+        .rd_clk      ( clk      ),
+        .rd_rst      ( ~rst_n      )
+    );
 
-    always @ (posedge clk) begin
-        if (we_i == `WriteEnable) begin
-            _ram[addr_i[31:2]] <= data_i;
-        end
-    end
-
-    always @ (*) begin
-        if (rst == `RstEnable) begin
-            data_o = `ZeroWord;
-        end else begin
-            data_o = _ram[addr_i[31:2]];
-        end
-    end
+    vld_rdy #(
+        .CUT_READY(0)
+    ) u_vld_rdy(
+        .clk(clk),
+        .rst_n(rst_n),
+        .vld_i(req_valid_i),
+        .rdy_o(req_ready_o),
+        .rdy_i(rsp_ready_i),
+        .vld_o(rsp_valid_o)
+    );
 
 endmodule
