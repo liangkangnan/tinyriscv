@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="generate_bit_stream_runtime" title="Generate Bit Stream Runtime &amp; Memory" column_number="7">
+        <column_headers>
+            <data>Cpu Time</data>
+            <data>Process Cpu Time</data>
+            <data>Real Time</data>
+            <data>Peak Memory (MB)</data>
+            <data>Operation System</data>
+            <data>CPU</data>
+            <data>RAM(GB)</data>
+        </column_headers>
+        <row>
+            <data>0h:0m:13s</data>
+            <data>0h:0m:13s</data>
+            <data>0h:0m:15s</data>
+            <data>419</data>
+            <data>WINDOWS 10 x86_64</data>
+            <data>AMD Ryzen 7 4800U with Radeon Graphics</data>
+            <data>15</data>
+        </row>
+    </table>
+    <general_container id="generate_bit_stream_settings">
+        <table_container>
+            <table id="generate_bit_stream_settings" title="Generate Bit Stream Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PGL22G-6MBG324</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>tinyriscv_soc_top</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>General</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Create Bit File</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Create Bin File</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Reverse Bit In a Byte</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Reverse Byte In a Word</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Compress Bitstream</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Optimize Compress</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Disable Cyclic Redundancy Checking(CRC)</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Write DRM Data</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Unused IO Status</data>
+                        <data>PULLDOWN</data>
+                    </row>
+                    <row>
+                        <data>Show Time Info</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Show Manufacturer Info</data>
+                        <data>true</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Configuration</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Usercode</data>
+                        <data>FFFFFFFF</data>
+                    </row>
+                    <row>
+                        <data>Master Configuration Clock Frequency</data>
+                        <data>3.125M</data>
+                    </row>
+                    <row>
+                        <data>System Clock Frequency</data>
+                        <data>100M</data>
+                    </row>
+                    <row>
+                        <data>Enable OSC Shut Off</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Enable Watchdog In User Mode</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Enable Watchdog In Configuration Mode</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Load Watchdog</data>
+                        <data>3FFFFFFF</data>
+                    </row>
+                    <row>
+                        <data>Enable Version Select(VS) Pin</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Version Fallback Control</data>
+                        <data>Golden bit stream</data>
+                    </row>
+                    <row>
+                        <data>Set Fallback Retry Times</data>
+                        <data>1</data>
+                    </row>
+                    <row>
+                        <data>Set Bitstream Retry Times</data>
+                        <data>0</data>
+                    </row>
+                    <row>
+                        <data>RST_N pin</data>
+                        <data>Pull Up</data>
+                    </row>
+                    <row>
+                        <data>TDI pin</data>
+                        <data>Pull Up</data>
+                    </row>
+                    <row>
+                        <data>TMS pin</data>
+                        <data>Pull Up</data>
+                    </row>
+                    <row>
+                        <data>TCK pin</data>
+                        <data>Pull Up</data>
+                    </row>
+                    <row>
+                        <data>TDO pin</data>
+                        <data>Pull Up</data>
+                    </row>
+                    <row>
+                        <data>Enable External Master Configuration Clock</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>BPI Read Cycle</data>
+                        <data>1</data>
+                    </row>
+                    <row>
+                        <data>BPI Page Size</data>
+                        <data>1Byte/Half Word</data>
+                    </row>
+                    <row>
+                        <data>BPI Mode</data>
+                        <data>asynchronous</data>
+                    </row>
+                    <row>
+                        <data>Enable Done Synchronization</data>
+                        <data>false</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Startup</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Wake Up Time Slot Length</data>
+                        <data>1</data>
+                    </row>
+                    <row>
+                        <data>Done Time Slot</data>
+                        <data>T1</data>
+                    </row>
+                    <row>
+                        <data>Gwen Time Slot</data>
+                        <data>T3</data>
+                    </row>
+                    <row>
+                        <data>Grsn Time Slot</data>
+                        <data>T4</data>
+                    </row>
+                    <row>
+                        <data>Gouten Time Slot</data>
+                        <data>T2</data>
+                    </row>
+                    <row>
+                        <data>Enable Wait DCI Match</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Enable Wait PLL Lock</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Wake Up Clock</data>
+                        <data>Master Configuration Clock</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Readback</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Create Mask File</data>
+                        <data>true</data>
+                    </row>
+                    <row>
+                        <data>Disable Readback CRC</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Bitstream Security</data>
+                        <data>enable reconfigure, enable readback</data>
+                    </row>
+                    <row>
+                        <data>Select Persist Pin</data>
+                        <data>None</data>
+                    </row>
+                </table>
+            </table_container>
+            <table_container>
+                <data>Encryption</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Encrypt Bitstream</data>
+                        <data>false</data>
+                    </row>
+                    <row>
+                        <data>Select Key Type</data>
+                        <data>Key</data>
+                    </row>
+                    <row>
+                        <data>Starting CBC Value</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Input Encryption Key File</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Key String</data>
+                        <data></data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+</tables>

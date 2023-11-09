@@ -1,0 +1,48 @@
+##### Written on 2023/10/16 23:00:21 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL22G-6MBG324
+
+Top Module : 
+	tinyriscv_soc_top
+
+Constraint File(s) : 
+	D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 0 critical warning(s), 0 warning(s), out of 160 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

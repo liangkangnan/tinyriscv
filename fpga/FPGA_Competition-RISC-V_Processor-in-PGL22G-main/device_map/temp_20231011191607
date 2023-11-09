@@ -1,0 +1,9 @@
+Project.type=inserter
+Project.device.ScanChain=1
+Project.device.UserJtag=0
+Project.device.deviceFamily=Logos2
+Project.device.deviceModel=PG2L25H
+Project.device.devicePackage=MBG325
+Project.device.deviceSpeedGrade=-6
+Project.Architecture=0 
+Project.unit.dimension=0

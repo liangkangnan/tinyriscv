@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tables>
+    <table id="generate_netlist_runtime" title="Generate Netlist Runtime &amp; Memory" column_number="3">
+        <column_headers>
+            <data>Cpu Time (s)</data>
+            <data>Real Time (s)</data>
+            <data>Peak Memory (B)</data>
+        </column_headers>
+        <row>
+            <data>17.7656</data>
+            <data>46</data>
+            <data>659,238,912</data>
+        </row>
+    </table>
+    <general_container id="generate_netlist_settings" align="1">
+        <table_container>
+            <table id="generate_netlist_settings" title="Generate Netlist Settings" column_number="2">
+                <column_headers>
+                    <data>Name</data>
+                    <data>Value</data>
+                </column_headers>
+                <row>
+                    <data>Part</data>
+                    <data>PGL22G-6MBG324</data>
+                </row>
+                <row>
+                    <data>Top Module</data>
+                    <data>top</data>
+                </row>
+            </table>
+        </table_container>
+        <general_container align="3">
+            <table_container>
+                <data>Simulation Model</data>
+                <table id="" title="" column_number="2">
+                    <column_headers>
+                        <data>Name</data>
+                        <data>Value</data>
+                    </column_headers>
+                    <row>
+                        <data>Enable Sdf Annotate</data>
+                        <data></data>
+                    </row>
+                    <row>
+                        <data>Process Corner</data>
+                        <data>slow</data>
+                    </row>
+                </table>
+            </table_container>
+        </general_container>
+    </general_container>
+</tables>

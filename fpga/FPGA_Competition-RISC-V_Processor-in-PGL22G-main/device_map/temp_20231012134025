@@ -1,0 +1,9 @@
+Project.type=inserter
+Project.device.ScanChain=1
+Project.device.UserJtag=0
+Project.device.deviceFamily=Titan
+Project.device.deviceModel=PGT180H
+Project.device.devicePackage=FFBG1140
+Project.device.deviceSpeedGrade=-6
+Project.Architecture=0 
+Project.unit.dimension=0

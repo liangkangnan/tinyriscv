@@ -1,0 +1,9 @@
+Project.type=inserter
+Project.device.ScanChain=1
+Project.device.UserJtag=0
+Project.device.deviceFamily=Compact
+Project.device.deviceModel=PGC4KL
+Project.device.devicePackage=UWG81
+Project.device.deviceSpeedGrade=-6
+Project.Architecture=0 
+Project.unit.dimension=0

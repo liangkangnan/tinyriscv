@@ -1,0 +1,470 @@
+##### Written on 2023/10/03 16:21:28 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL22G-6MBG324
+
+Top Module : 
+	tinyriscv_core
+
+Constraint File(s) : 
+	D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc
+
+##### SUMMARY ######################################################
+
+Found 51 error(s), 0 critical warning(s), 220 warning(s), out of 56 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:halted_ind} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 1)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_LOC} {U10}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 2)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 3)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 4)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 5)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 6)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 7)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_LOC} {R18}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 8)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 9)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 10)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 11)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 12)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:rst_ext_i} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 17)] Object 'p:rst_ext_i' can not be found in current view.
+
+define_attribute {p:rst_ext_i} {PAP_IO_LOC} {U12}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 18)] Object 'p:rst_ext_i' can not be found in current view.
+
+define_attribute {p:rst_ext_i} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 19)] Object 'p:rst_ext_i' can not be found in current view.
+
+define_attribute {p:rst_ext_i} {PAP_IO_STANDARD} {LVTTL33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 20)] Object 'p:rst_ext_i' can not be found in current view.
+
+define_attribute {p:uart_rx_pin} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 21)] Object 'p:uart_rx_pin' can not be found in current view.
+
+define_attribute {p:uart_rx_pin} {PAP_IO_LOC} {N14}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 22)] Object 'p:uart_rx_pin' can not be found in current view.
+
+define_attribute {p:uart_rx_pin} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 23)] Object 'p:uart_rx_pin' can not be found in current view.
+
+define_attribute {p:uart_rx_pin} {PAP_IO_STANDARD} {LVTTL33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 24)] Object 'p:uart_rx_pin' can not be found in current view.
+
+define_attribute {n:jtag_TCK} {PAP_CLOCK_DEDICATED_ROUTE} {FALSE} 
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 26)] Object 'n:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 27)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_LOC} {V16}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 28)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 29)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 30)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 31)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 32)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TCK} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 33)] Object 'p:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TCK} {PAP_IO_LOC} {V17}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 34)] Object 'p:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TCK} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 35)] Object 'p:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TCK} {PAP_IO_STANDARD} {LVTTL33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 36)] Object 'p:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TDI} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 37)] Object 'p:jtag_TDI' can not be found in current view.
+
+define_attribute {p:jtag_TDI} {PAP_IO_LOC} {V18}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 38)] Object 'p:jtag_TDI' can not be found in current view.
+
+define_attribute {p:jtag_TDI} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 39)] Object 'p:jtag_TDI' can not be found in current view.
+
+define_attribute {p:jtag_TDI} {PAP_IO_STANDARD} {LVTTL33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 40)] Object 'p:jtag_TDI' can not be found in current view.
+
+define_attribute {p:jtag_TMS} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 41)] Object 'p:jtag_TMS' can not be found in current view.
+
+define_attribute {p:jtag_TMS} {PAP_IO_LOC} {T18}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 42)] Object 'p:jtag_TMS' can not be found in current view.
+
+define_attribute {p:jtag_TMS} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 43)] Object 'p:jtag_TMS' can not be found in current view.
+
+define_attribute {p:jtag_TMS} {PAP_IO_STANDARD} {LVTTL33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 44)] Object 'p:jtag_TMS' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 45)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_LOC} {P17}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 46)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 47)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 48)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 49)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 50)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 51)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_LOC} {U11}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 52)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 53)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 54)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 55)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 56)] Object 'p:gpio[0]' can not be found in current view.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'dbus_addr_o[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[10]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[11]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[12]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[13]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[14]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[15]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[16]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[17]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[18]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[19]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[20]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[21]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[22]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[23]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[24]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[25]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[26]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[27]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[28]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[29]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[30]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_addr_o[31]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[10]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[11]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[12]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[13]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[14]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[15]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[16]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[17]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[18]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[19]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[20]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[21]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[22]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[23]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[24]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[25]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[26]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[27]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[28]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[29]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[30]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_o[31]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_req_valid_o' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_rsp_ready_o' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_sel_o[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_sel_o[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_sel_o[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_sel_o[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_we_o' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[10]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[11]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[12]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[13]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[14]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[15]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[16]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[17]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[18]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[19]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[20]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[21]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[22]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[23]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[24]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[25]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[26]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[27]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[28]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[29]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[30]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_addr_o[31]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[10]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[11]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[12]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[13]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[14]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[15]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[16]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[17]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[18]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[19]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[20]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[21]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[22]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[23]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[24]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[25]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[26]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[27]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[28]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[29]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[30]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_o[31]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_req_valid_o' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_rsp_ready_o' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_sel_o[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_sel_o[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_sel_o[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_sel_o[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_we_o' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[10]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[11]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[12]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[13]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[14]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[15]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[16]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[17]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[18]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[19]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[20]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[21]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[22]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[23]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[24]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[25]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[26]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[27]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[28]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[29]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[30]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_data_i[31]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_req_ready_i' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'dbus_rsp_valid_i' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[10]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[11]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[12]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[13]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[14]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[15]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[16]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[17]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[18]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[19]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[20]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[21]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[22]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[23]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[24]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[25]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[26]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[27]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[28]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[29]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[30]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_data_i[31]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_req_ready_i' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'ibus_rsp_valid_i' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'int_i[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'int_i[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'int_i[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'int_i[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'int_i[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'int_i[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'int_i[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'int_i[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'jtag_halt_i' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rst_n' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

@@ -1,0 +1,7 @@
+# Object files
+*.o
+*.ko
+*.obj
+freertos.bin
+freertos.dump
+freertos
