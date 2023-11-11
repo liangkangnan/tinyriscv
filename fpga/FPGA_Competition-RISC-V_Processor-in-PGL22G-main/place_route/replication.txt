@@ -1,0 +1,1205 @@
+Instances in group:
+    gopIBUF clk_ibuf/opit_0
+    gopIBUFIOL clk_ibuf/opit_1
+    gopIOBUF gpio_tri[0]/opit_0
+    gopIOBUFIOL gpio_tri[0]/opit_1
+    gopIOBUF gpio_tri[1]/opit_0
+    gopIOBUFIOL gpio_tri[1]/opit_1
+    gopIOBUF gpio_tri[2]/opit_0
+    gopIOBUFIOL gpio_tri[2]/opit_1
+    gopIOBUF gpio_tri[3]/opit_0
+    gopIOBUFIOL gpio_tri[3]/opit_1
+    gopIOBUF gpio_tri[4]/opit_0
+    gopIOBUFIOL gpio_tri[4]/opit_1
+    gopIOBUF gpio_tri[5]/opit_0
+    gopIOBUFIOL gpio_tri[5]/opit_1
+    gopIOBUF gpio_tri[6]/opit_0
+    gopIOBUFIOL gpio_tri[6]/opit_1
+    gopIOBUF gpio_tri[7]/opit_0
+    gopIOBUFIOL gpio_tri[7]/opit_1
+    gopOBUF halted_ind_obuf/opit_0
+    gopOBUFIOL halted_ind_obuf/opit_1
+    gopIBUF jtag_TCK_ibuf/opit_0
+    gopIBUFIOL jtag_TCK_ibuf/opit_1
+    gopIBUF jtag_TDI_ibuf/opit_0
+    gopIBUFIOL jtag_TDI_ibuf/opit_1
+    gopOBUF jtag_TDO_obuf/opit_0
+    gopOBUFIOL jtag_TDO_obuf/opit_1
+    gopIBUF jtag_TMS_ibuf/opit_0
+    gopIBUFIOL jtag_TMS_ibuf/opit_1
+    gopIBUF rst_ext_i_ibuf/opit_0
+    gopIBUFIOL rst_ext_i_ibuf/opit_1
+    gopOBUF spi_clk_obuf/opit_0
+    gopOBUFIOL spi_clk_obuf/opit_1
+    gopIBUF spi_miso_ibuf/opit_0
+    gopIBUFIOL spi_miso_ibuf/opit_1
+    gopOBUF spi_mosi_obuf/opit_0
+    gopOBUFIOL spi_mosi_obuf/opit_1
+    gopOBUF spi_ss_obuf/opit_0
+    gopOBUFIOL spi_ss_obuf/opit_1
+    gopA2 timer_0/N5.lt_0/gateop_A2
+    gopA2 timer_0/N5.lt_2/gateop_A2
+    gopA2 timer_0/N5.lt_4/gateop_A2
+    gopA2 timer_0/N5.lt_6/gateop_A2
+    gopA2 timer_0/N5.lt_8/gateop_A2
+    gopA2 timer_0/N5.lt_10/gateop_A2
+    gopA2 timer_0/N5.lt_12/gateop_A2
+    gopA2 timer_0/N5.lt_14/gateop_A2
+    gopA2Q1 timer_0/timer_count[1]/opit_0_A2Q1
+    gopA2Q2 timer_0/timer_count[3]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[5]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[7]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[9]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[11]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[13]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[15]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[17]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[19]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[21]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[23]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[25]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[27]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[29]/opit_0_A2Q21
+    gopA2Q2 timer_0/timer_count[31]/opit_0_A2Q21
+    gopA2 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N146_1_1/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N146_1_3/gateop_A2
+    gopA u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N146_1_5/gateop
+    gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N242_1.fsub_1/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N242_1.fsub_3/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N242_1.fsub_5/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N242_1.fsub_7/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N284_1_1/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N284_1_3/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N284_1_5/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N284_1_7/gateop_A2
+    gopA2Q1 u_CORES/u_debug_core_0/u_Storage_Condition/counter_win_p[1]/opit_0_inv_A2Q1
+    gopA2Q2 u_CORES/u_debug_core_0/u_Storage_Condition/counter_win_p[3]/opit_0_inv_A2Q21
+    gopA2Q2 u_CORES/u_debug_core_0/u_Storage_Condition/counter_win_p[5]/opit_0_inv_A2Q21
+    gopA2Q2 u_CORES/u_debug_core_0/u_Storage_Condition/counter_win_p[7]/opit_0_inv_A2Q21
+    gopAQ u_CORES/u_debug_core_0/u_Storage_Condition/counter_win_p[8]/opit_0_inv_AQ
+    gopA2Q2 u_CORES/u_debug_core_0/u_Storage_Condition/winwrap_remove.address_win[2]/opit_0_inv_A2Q21
+    gopA2Q2 u_CORES/u_debug_core_0/u_Storage_Condition/winwrap_remove.address_win[4]/opit_0_inv_A2Q21
+    gopA2Q2 u_CORES/u_debug_core_0/u_Storage_Condition/winwrap_remove.address_win[6]/opit_0_inv_A2Q21
+    gopA2Q2 u_CORES/u_debug_core_0/u_Storage_Condition/winwrap_remove.address_win[8]/opit_0_inv_A2Q21
+    gopA2 u_CORES/u_debug_core_0/u_rd_addr_gen/N2_1_1/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_rd_addr_gen/N2_1_3/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_rd_addr_gen/N2_1_5/gateop_A2
+    gopA u_CORES/u_debug_core_0/u_rd_addr_gen/N2_1_7/gateop
+    gopA2 u_CORES/u_debug_core_0/u_rd_addr_gen/N38_1_1/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_rd_addr_gen/N38_1_3/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_rd_addr_gen/N38_1_5/gateop_A2
+    gopA2 u_CORES/u_debug_core_0/u_rd_addr_gen/N38_1_7/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_1/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_3/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_5/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_7/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_9/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_11/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_13/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_15/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_17/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_19/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_21/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_23/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_25/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_27/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_29/gateop_A2
+    gopA2 u_jtag_top/u_jtag_dm/N20_31/gateop_A2
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[2]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[4]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[6]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[8]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[10]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[12]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[14]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[16]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[18]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[20]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[22]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[24]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[26]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[28]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[30]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[32]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[34]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[36]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[38]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[40]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[42]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[44]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[46]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[48]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[50]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[52]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[54]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[56]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[58]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[60]/opit_0_A2Q21
+    gopA2Q2 u_tinyriscv_core/u_csr_reg/cycle[62]/opit_0_A2Q21
+    gopAQ u_tinyriscv_core/u_csr_reg/cycle[63]/opit_0_AQ
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_0/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_2/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_4/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_6/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_8/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_10/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_12/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_14/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_16/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_18/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_20/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_22/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_24/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_26/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_28/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N5_1.fsub_30/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_1/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_3/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_5/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_7/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_9/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_11/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_13/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_15/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_17/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_19/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_21/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_23/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_25/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_27/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_29/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N7_31/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N17.slt_0/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N17.slt_2/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N17.slt_4/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N17.slt_6/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N17.slt_8/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N17.slt_10/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N17.slt_12/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N17.slt_14/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_1/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_3/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_5/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_7/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_9/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_11/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_13/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_15/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_17/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_19/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_21/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_23/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_25/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_27/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_29/gateop_A2
+    gopA u_tinyriscv_core/u_exu/u_exu_muldiv/N17_1.fsub_31/gateop
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_1/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_3/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_5/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_7/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_9/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_11/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_13/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_15/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_17/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_19/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_21/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_23/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_25/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_27/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_29/gateop_A2
+    gopA u_tinyriscv_core/u_exu/u_exu_muldiv/N19_1.fsub_31/gateop
+    gopAPM u_tinyriscv_core/u_exu/u_exu_muldiv/N37_m1/gopapm
+    gopAPM u_tinyriscv_core/u_exu/u_exu_muldiv/N37_m2/gopapm
+    gopAPM u_tinyriscv_core/u_exu/u_exu_muldiv/N37_m3/gopapm
+    gopAPM u_tinyriscv_core/u_exu/u_exu_muldiv/N37_m4/gopapm
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_2/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_4/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_6/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_8/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_10/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_12/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_14/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_16/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_18/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_20/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_22/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_24/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_26/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_28/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_30/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_32/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_34/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_36/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_38/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_40/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_42/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_44/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_46/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_48/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_50/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_52/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_54/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_56/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_58/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_60/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/N38_1.fsub_62/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_1/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_3/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_5/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_7/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_9/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_11/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_13/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_15/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_17/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_19/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_21/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_23/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_25/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_27/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_29/gateop_A2
+    gopA u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N0_1.fsub_31/gateop
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_0/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_2/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_4/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_6/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_8/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_10/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_12/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_14/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_16/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_18/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_20/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_22/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_24/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_26/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_28/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N1_1.fsub_30/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N2.lt_0/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N2.lt_2/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N2.lt_4/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N2.lt_6/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N2.lt_8/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N2.lt_10/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N2.lt_12/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N2.lt_14/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_1/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_3/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_5/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_7/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_9/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_11/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_13/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_15/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_17/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_19/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_21/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_23/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_25/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_27/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_29/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N4.fsub_31/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_0/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_2/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_4/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_6/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_8/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_10/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_12/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_14/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_16/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_18/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_20/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_22/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_24/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_26/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_28/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N110_1.fsub_30/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_1/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_3/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_5/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_7/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_9/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_11/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_13/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_15/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_17/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_19/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_21/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_23/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_25/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_27/gateop_A2
+    gopA2 u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_29/gateop_A2
+    gopA u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/N112_1.fsub_31/gateop
+    gopA2 u_tinyriscv_core/u_gpr_reg/N252.eq_0/gateop_A2
+    gopA u_tinyriscv_core/u_gpr_reg/N252.eq_2/gateop
+    gopA2 u_tinyriscv_core/u_gpr_reg/N260.eq_0/gateop_A2
+    gopA u_tinyriscv_core/u_gpr_reg/N260.eq_2/gateop
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_0/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_2/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_4/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_6/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_8/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_10/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_12/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_14/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_16/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_18/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_20/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_22/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_24/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_26/gateop_A2
+    gopA2 u_tinyriscv_core/u_ifu/N13_1_28/gateop_A2
+    gopA2 uart_0/N35.eq_0/gateop_A2
+    gopA2 uart_0/N35.eq_2/gateop_A2
+    gopA2 uart_0/N35.eq_4/gateop_A2
+    gopA2 uart_0/N35.eq_6/gateop_A2
+    gopA2 uart_0/N173.eq_0/gateop_A2
+    gopA2 uart_0/N173.eq_2/gateop_A2
+    gopA2 uart_0/N173.eq_4/gateop_A2
+    gopA2 uart_0/N173.eq_6/gateop_A2
+    gopA2 uart_0/N255.eq_0/gateop_A2
+    gopA2 uart_0/N255.eq_2/gateop_A2
+    gopA uart_0/N255.eq_4/gateop
+    gopA2Q2 uart_0/clk_cnt[2]/opit_0_A2Q21
+    gopA2Q2 uart_0/clk_cnt[4]/opit_0_A2Q21
+    gopA2Q2 uart_0/clk_cnt[6]/opit_0_A2Q21
+    gopA2Q2 uart_0/clk_cnt[8]/opit_0_A2Q21
+    gopA2Q1 uart_0/cycle_cnt[1]/opit_0_A2Q1
+    gopA2Q2 uart_0/cycle_cnt[3]/opit_0_A2Q21
+    gopA2Q2 uart_0/cycle_cnt[5]/opit_0_A2Q21
+    gopA2Q2 uart_0/cycle_cnt[7]/opit_0_A2Q21
+    gopA2Q2 uart_0/cycle_cnt[9]/opit_0_A2Q21
+    gopA2Q2 uart_0/cycle_cnt[11]/opit_0_A2Q21
+    gopA2Q2 uart_0/cycle_cnt[13]/opit_0_A2Q21
+    gopA2Q2 uart_0/cycle_cnt[15]/opit_0_A2Q21
+    gopA2Q1 uart_0/rx_clk_cnt[1]/opit_0_A2Q1
+    gopA2Q2 uart_0/rx_clk_cnt[3]/opit_0_A2Q21
+    gopA2Q2 uart_0/rx_clk_cnt[5]/opit_0_A2Q21
+    gopA2Q2 uart_0/rx_clk_cnt[7]/opit_0_A2Q21
+    gopA2Q2 uart_0/rx_clk_cnt[9]/opit_0_A2Q21
+    gopA2Q2 uart_0/rx_clk_cnt[11]/opit_0_A2Q21
+    gopA2Q2 uart_0/rx_clk_cnt[13]/opit_0_A2Q21
+    gopA2Q2 uart_0/rx_clk_cnt[15]/opit_0_A2Q21
+    gopIBUF uart_rx_pin_ibuf/opit_0
+    gopIBUFIOL uart_rx_pin_ibuf/opit_1
+    gopOBUF uart_tx_pin_obuf/opit_0
+    gopOBUFIOL uart_tx_pin_obuf/opit_1
+Instances without PInst:
+    bmsGND _$$_GND_$$_
+    bmsVCC _$$_VCC_$$_
+    bmsX _$$_X_$$_
+    bmsY _$$_Y_$$_
+    bmsZ _$$_Z_$$_
+Instances fixed:
+    gopCLKBUFG clkbufg_3/gopclkbufg
+    gopCLKBUFG clkbufg_4/gopclkbufg
+    gopCLKBUFG clkbufg_5/gopclkbufg
+    gopCLKBUFG clkbufg_6/gopclkbufg
+    gopSCANCHAIN u_CORES/u_GTP_SCANCHAIN_PG/scanchain
+    gopBKCL BKCL_auto_0
+    gopBKCL BKCL_auto_1
+    gopBKCL BKCL_auto_2
+Instances is not target:
+    gopGRS GRS_INST/grs
+    gopMUX4TO1Q gpio_0/data_r[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[5]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[8]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[9]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[10]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[11]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[12]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[13]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/data_r[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[5]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[8]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[9]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[10]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[11]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[12]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[13]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_ctrl[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_data[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_data[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_data[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_data[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_data[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_data[5]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_data[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q gpio_0/gpio_data[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[8]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[9]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[10]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[11]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[12]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[13]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[21]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[22]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[23]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[24]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[25]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[26]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[27]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[28]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[29]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[30]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/data_r[31]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q timer_0/timer_ctrl[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_CORES/u_debug_core_0/ram_wdat0/opit_0_inv_MUX4TO1Q
+    gopMUX16TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N259_16_muxf7
+    gopMUX16TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N259_35_muxf7
+    gopMUX4TO1Q u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/getback_n.cfg_rdata/opit_0_inv_MUX4TO1Q
+    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data/iGopDrm
+    gopMUX16TO1 u_CORES/u_debug_core_0/u_Storage_Condition/u_cfg_reg_file/N195_14_muxf7
+    gopMUX4TO1Q u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[3]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[4]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[6]/opit_0_inv_MUX4TO1Q
+    gopMUX8TO1Q u_CORES/u_debug_core_0/u_rd_addr_gen/tdo_mux_d1/opit_0_inv_MUX8TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/abstractcs[9]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[0]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[1]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[2]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[3]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[4]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[5]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[6]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[7]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[12]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[13]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[14]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[15]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[16]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[17]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[18]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[19]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[20]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[21]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[22]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[23]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[24]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[25]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[26]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[27]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[28]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[29]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[30]/opit_0_inv_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_dm/read_data[31]/opit_0_inv_MUX4TO1Q
+    gopL6Q u_jtag_top/u_jtag_driver/shift_reg[0]/opit_0_L6Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[8]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[13]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[22]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[23]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[24]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[29]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[30]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[32]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[33]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[34]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[35]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[36]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[37]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[38]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/shift_reg[39]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_jtag_top/u_jtag_driver/sticky_busy/opit_0_inv_MUX4TO1Q
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[0].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[1].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[1].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[2].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[2].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[3].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[3].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[4].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[4].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[5].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[5].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[6].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[6].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[7].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_ram/ram222/U_ipml_spram_ram2/ADDR_LOOP[7].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[0]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[1]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[2]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[3]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[4]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[5]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[6]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[7]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[8]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[9]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[10]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[11]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[12]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[13]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[14]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[15]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[16]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[17]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[18]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[19]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[20]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[21]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[22]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[23]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[24]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[25]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[26]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[27]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[28]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[29]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[30]_muxf6
+    gopMUX8TO1 u_ram/ram222/U_ipml_spram_ram2/rd_data_8[31]_muxf6
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[0].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[1].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[1].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[2].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[2].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[3].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[3].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[4].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[4].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[5].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[5].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[6].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[6].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[7].DATA_LOOP[0].U_GTP_DRM18K/iGopDrm
+    gopDRM u_rom/rom111/U_ipml_spram_ram1/ADDR_LOOP[7].DATA_LOOP[1].U_GTP_DRM18K/iGopDrm
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[0]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[4]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[10]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[12]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[13]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[14]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[15]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[16]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[17]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[18]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[20]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[21]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[22]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[24]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[25]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[26]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[28]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[29]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[30]_muxf6
+    gopMUX8TO1 u_rom/rom111/U_ipml_spram_ram1/rd_data_8[31]_muxf6
+    gopMUX4TO1Q u_tinyriscv_core/u_clint/csr_wdata_o[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_clint/csr_wdata_o[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_clint/csr_wdata_o[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_clint/csr_wdata_o[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_clint/csr_wdata_o[31]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_clint/pc_state_dff/qout_r[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[21]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[23]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[29]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_csr_reg/mcause[31]/opit_0_MUX4TO1Q
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[3]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[5]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[7]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[8]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[10]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[13]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[15]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[16]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[17]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[19]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[20]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[21]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[23]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[29]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[30]_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_11[1]_2_muxf6
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[5]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[8]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[9]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[10]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[11]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[12]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[13]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[21]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[22]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[23]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[24]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[25]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[26]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[27]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[28]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[29]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[30]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/div_remain[31]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[5]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[8]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[9]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[10]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[11]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[12]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[13]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[21]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[22]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[23]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[24]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[25]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[26]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[27]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[28]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[29]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[30]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/dividend_r[31]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/divisor_r[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/invert_result/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[5]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[8]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[9]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[10]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[11]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[12]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[13]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[21]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[22]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[23]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[24]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[25]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[26]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[27]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[28]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[29]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[30]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/minuend[31]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[5]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[8]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[9]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[10]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[11]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[12]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[13]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[21]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[22]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[23]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[24]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[25]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[26]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[27]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[28]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[29]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[30]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/result_o[31]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_exu/u_exu_muldiv/u_divider/state_0/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[27].not_x0.rf_dff/qout_r[29]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[27].not_x0.rf_dff/qout_r[30]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[27].not_x0.rf_dff/qout_r[31]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[5]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[8]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[9]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[10]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[11]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[12]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[13]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[21]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[22]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[23]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[24]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[25]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[26]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[27]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_gpr_reg/gpr_rw[28].not_x0.rf_dff/qout_r[28]/opit_0_MUX4TO1Q
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[0]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[1]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[2]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[3]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[4]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[5]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[6]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[7]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[8]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[9]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[10]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[11]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[12]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[13]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[14]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[15]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[16]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[17]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[18]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[19]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[20]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[21]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[22]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[23]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[24]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[25]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[26]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[27]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[28]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[29]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[30]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_84[31]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[0]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[1]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[2]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[3]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[4]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[5]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[6]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[7]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[8]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[9]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[10]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[11]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[12]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[13]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[14]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[15]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[16]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[17]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[18]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[19]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[20]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N11_104[21]_muxf7
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[22]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[23]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[24]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[25]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[26]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[27]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[28]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[29]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[30]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N11_106[31]_2_muxf6
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[0]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[1]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[2]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[3]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[4]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[5]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[6]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[7]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[8]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[9]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[10]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[11]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[12]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[13]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[14]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[15]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[16]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[17]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[18]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[19]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[20]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[21]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[22]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[23]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[24]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[25]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[26]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[27]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[28]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[29]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[30]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_84[31]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[0]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[1]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[2]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[3]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[4]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[5]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[6]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[7]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[8]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[9]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[10]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[11]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[12]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[13]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[14]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[15]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[16]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[17]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[18]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[19]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[20]_muxf7
+    gopMUX16TO1 u_tinyriscv_core/u_idu_exu/N14_104[21]_muxf7
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[22]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[23]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[24]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[25]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[26]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[27]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[28]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[29]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[30]_2_muxf6
+    gopMUX8TO1 u_tinyriscv_core/u_idu_exu/N14_106[31]_2_muxf6
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs1_rdata_ff/qout_r[21]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[14]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[15]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q u_tinyriscv_core/u_idu_exu/rs2_rdata_ff/qout_r[21]/opit_0_MUX4TO1Q
+    gopMUX8TO1 uart_0/N564_26_muxf6
+    gopMUX16TO1 uart_0/N745_35_muxf7
+    gopMUX4TO1Q uart_0/data_r[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/data_r[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/data_r[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/data_r[3]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/data_r[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/data_r[5]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/data_r[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/data_r[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_ctrl[0]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[1]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[2]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[4]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[6]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[7]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[16]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[17]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[18]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[19]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[20]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[21]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[22]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[24]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[25]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[26]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[27]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[28]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[29]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[30]/opit_0_MUX4TO1Q
+    gopMUX4TO1Q uart_0/spi_data[31]/opit_0_MUX4TO1Q
+Pin whose loads are focus:
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[9]/opit_0_L5Q
+    Z gopLUT5 u_rib/N74_30_3/gateop
+    F gopMUX4TO1 u_rib/N74_30_4/gateop
+    F gopMUX4TO1 u_rib/N77_171/gateop
+    Z gopLUT5 u_rib/N169_27_2/gateop
+    Z gopLUT5 u_rib/N169_27_5/gateop
+    F gopMUX4TO1 u_rib/N219_27/gateop
+    Z gopLUT5 u_rib/N357_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[19][1]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[19]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N93_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N97_1/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N101_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[19]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_35_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[27]_4/gateop
+    Z gopLUT5 u_rib/N355_3/gateop
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[7]/opit_0_L5Q
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[10]/opit_0_L5Q
+    Z gopLUT5 u_tinyriscv_core/u_clint/N104_40/gateop
+    Z gopLUT5 u_tinyriscv_core/u_clint/csr_state_3_1/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[19]_4/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[19]_6/gateop
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[13]/opit_0_L5Q
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[8]/opit_0_L5Q
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[21][3]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[21]_6/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[21]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[21]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_37_5/gateop
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[2]/opit_0_L5Q
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_dispatch/N36_18/gateop
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[12]/opit_0_L5Q
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[18]/opit_0_L5Q
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[1]/opit_0_L5Q
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[15]_4/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[15]_6/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[15]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[15]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_31_5/gateop
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[14]/opit_0_L5Q
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[0]/opit_0_L5Q
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N101_6/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N98_7/gateop
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[15]/opit_0_L5Q
+    Z gopLUT5 u_tinyriscv_core/u_clint/N104_38/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[21]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N92/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[15][0]/gateop
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[16]/opit_0_L5Q
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[11]/opit_0_L5Q
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[19]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[20][3]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[20]_6/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[20]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[20]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_36_5/gateop
+    Q gopL5Q u_tinyriscv_core/u_idu_exu/info_bus_ff/qout_r[17]/opit_0_L5Q
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N97_6/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[15]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[18]_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[18]_7/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[18]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N96_3/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[18]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_34_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[13][6]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[13]_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[13]_7/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[13]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[13]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_29_5/gateop
+    Z gopLUT5 u_rib/N169_21_4/gateop
+    Z gopLUT5 u_rib/N169_21_5/gateop
+    F gopMUX4TO1 u_rib/N219_21/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[21]_4/gateop
+    Z gopLUT5 u_rib/N138_21/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[20]_2/gateop
+    Z gopLUT5 u_rib/N169_18_4/gateop
+    Z gopLUT5 u_rib/N169_18_5/gateop
+    Z gopLUT5 u_rib/N239_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/lb_res_2[2]/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[2]_1_5/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[21]_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[18][6]/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[20]_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[13][2]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N96_2/gateop
+    F gopMUX4TO1 u_rib/N74_29_4/gateop
+    Z gopLUT5 u_rib/N74_29_3/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[4]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[4]_4/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[4]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[4]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_20_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[1][0]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[1]_4/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[1]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_17_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[1]_8/gateop
+    F gopMUX4TO1 u_rib/N239_27/gateop
+    Z gopLUT5 u_rib/N239_3/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/lb_res_1[3]/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[3]_1_5/gateop
+    Z gopLUT5 u_rib/N169_11_2/gateop
+    Z gopLUT5 u_rib/N169_11_5/gateop
+    Z gopLUT5 u_rib/N239_11/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[11]_1_3/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[11]_1_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[14]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N99_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[14]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_30_5/gateop
+    F gopMUX4TO1 u_rib/N239_21/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[4]_3/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[4]_7/gateop
+    F gopMUX4TO1 u_rib/N169_6_3/gateop
+    Z gopLUT5 u_rib/N169_6_5/gateop
+    Z gopLUT5 u_rib/N356/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[6]_1_3/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[6]_1_5/gateop
+    Z gopLUT5 u_rib/N239_6/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/lb_res_2[6]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[8][0]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[8]_4/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[8]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[8]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_24_5/gateop
+    Z gopLUT5 u_rib/N169_20_4/gateop
+    Z gopLUT5 u_rib/N169_20_5/gateop
+    F gopMUX4TO1 u_rib/N219_20/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[20]_4/gateop
+    Z gopLUT5 u_rib/N138_20/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[11]_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[11]_7/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[11]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[11]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_27_5/gateop
+    Z gopLUT5 u_rib/N74_31_3/gateop
+    Z gopLUT5 u_rib/N80_4/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_457_2/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_457_3/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/N106[0]/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_mem/N100[0]_1/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N9_1_29/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_11[1]_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N9_3_17/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N9_2_17/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_394_2/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_394_3/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N9_1_21/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[2][0]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[2]_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[2]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_18_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[2]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[4][5]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[5][0]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[5]_4/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[5]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_21_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[5]_8/gateop
+    Z gopLUT5 u_rib/N169_30_4/gateop
+    Z gopLUT5 u_rib/N169_30_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/lb_res_1[6]/gateop
+    Z gopLUT5 u_rib/N138_30/gateop
+    Q gopQ u_tinyriscv_core/u_gpr_reg/gpr_rw[31].not_x0.rf_dff/qout_r[2]/opit_0
+    Z gopLUT5 u_rib/N219_11/gateop
+    Z gopLUT5 u_rib/N354/gateop
+    F gopMUX4TO1 u_rib/N74_31_4/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[29]_4/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[29]_6/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[29]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[29]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_45_5/gateop
+    Q gopQ u_tinyriscv_core/u_gpr_reg/gpr_rw[16].not_x0.rf_dff/qout_r[2]/opit_0
+    Q gopQ u_tinyriscv_core/u_gpr_reg/gpr_rw[17].not_x0.rf_dff/qout_r[2]/opit_0
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_and[29][1]/gateop
+    Q gopQ u_tinyriscv_core/u_gpr_reg/gpr_rw[19].not_x0.rf_dff/qout_r[11]/opit_0
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[2]_4/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_11[1]_6/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_11[0]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/N104[0]/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N9_1_28/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[0]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/alu_res_o_10[0]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N9_3_16/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[8]_5/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[10]_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[10]_7/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[10]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[10]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_26_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[17]_2/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[17]_8/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N4[17]/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_alu_datapath/N74_33_5/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N92_1/gateop
+    Z gopLUT5 u_tinyriscv_core/u_csr_reg/N65_or[11]_2/gateop
+    Z gopLUT5 u_rib/N169_22_4/gateop
+    Z gopLUT5 u_rib/N169_22_5/gateop
+    Z gopLUT5 u_rib/N138_22/gateop
+    F gopMUX4TO1 u_tinyriscv_core/u_csr_reg/N65_or[1]_5/gateop
+    F gopMUX4TO1 u_rib/N77_180/gateop
+    F gopMUX4TO1 u_rib/N219_30/gateop
+    Z gopLUT5 u_tinyriscv_core/u_exu/u_exu_mem/mem_wdata_o_6_or[30]_4/gateop
+
+Reduce:

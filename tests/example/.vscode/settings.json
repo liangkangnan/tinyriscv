@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "snake.h": "c",
+        "game.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "ps2.h": "c",
+        "utils.h": "c",
+        "spi.h": "c",
+        "*.rh": "c",
+        "string.h": "c",
+        "lcd_init.h": "c",
+        "time.h": "c",
+        "random": "c"
+    }
+}

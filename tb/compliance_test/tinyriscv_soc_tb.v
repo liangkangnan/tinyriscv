@@ -2,7 +2,7 @@
 
 `include "defines.v"
 
-
+// select one option only
 `define TEST_PROG  1
 //`define TEST_JTAG  1
 
@@ -11,18 +11,18 @@
 module tinyriscv_soc_tb;
 
     reg clk;
-    reg rst;
+    reg rst_n;
 
 
     always #10 clk = ~clk;     // 50MHz
 
-    wire[`RegBus] x3 = tinyriscv_soc_top_0.u_tinyriscv.u_regs.regs[3];
-    wire[`RegBus] x26 = tinyriscv_soc_top_0.u_tinyriscv.u_regs.regs[26];
-    wire[`RegBus] x27 = tinyriscv_soc_top_0.u_tinyriscv.u_regs.regs[27];
+    wire[31:0] x3 = tinyriscv_soc_top_0.u_tinyriscv_core.u_gpr_reg.regs[3];
+    wire[31:0] x26 = tinyriscv_soc_top_0.u_tinyriscv_core.u_gpr_reg.regs[26];
+    wire[31:0] x27 = tinyriscv_soc_top_0.u_tinyriscv_core.u_gpr_reg.regs[27];
 
-    wire[31:0] ex_end_flag = tinyriscv_soc_top_0.u_ram._ram[4];
-    wire[31:0] begin_signature = tinyriscv_soc_top_0.u_ram._ram[2];
-    wire[31:0] end_signature = tinyriscv_soc_top_0.u_ram._ram[3];
+    wire[31:0] ex_end_flag = tinyriscv_soc_top_0.u_ram.u_gen_ram.ram[4];
+    wire[31:0] begin_signature = tinyriscv_soc_top_0.u_ram.u_gen_ram.ram[2];
+    wire[31:0] end_signature = tinyriscv_soc_top_0.u_ram.u_gen_ram.ram[3];
 
     integer r;
     integer fd;
@@ -44,15 +44,17 @@ module tinyriscv_soc_tb;
 
     initial begin
         clk = 0;
-        rst = `RstEnable;
+        rst_n = 1'b1;
 `ifdef TEST_JTAG
         TCK = 1;
         TMS = 1;
         TDI = 1;
 `endif
         $display("test running...");
-        #40
-        rst = `RstDisable;
+        #100
+        rst_n = 1'b0;
+        #100
+        rst_n = 1'b1;
         #200
 /*
 `ifdef TEST_PROG
@@ -80,7 +82,7 @@ module tinyriscv_soc_tb;
             $display("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
             $display("fail testnum = %2d", x3);
             for (r = 0; r < 32; r = r + 1)
-                $display("x%2d = 0x%x", r, tinyriscv_soc_top_0.u_tinyriscv.u_regs.regs[r]);
+                $display("x%2d = 0x%x", r, tinyriscv_soc_top_0.u_tinyriscv_core.u_gpr_reg.regs[r]);
         end
 `endif
 */
@@ -89,7 +91,7 @@ module tinyriscv_soc_tb;
 
         fd = $fopen(`OUTPUT);   // OUTPUT的值在命令行里定义
         for (r = begin_signature; r < end_signature; r = r + 4) begin
-            $fdisplay(fd, "%x", tinyriscv_soc_top_0.u_rom._rom[r[31:2]]);
+            $fdisplay(fd, "%x", tinyriscv_soc_top_0.u_rom.u_gen_ram.ram[r[31:2]]);
         end
         $fclose(fd);
 
@@ -485,6 +487,16 @@ module tinyriscv_soc_tb;
         #100
 
         $display("shift_reg = 0x%x", shift_reg[33:2]);
+
+        if (dmstatus == shift_reg[33:2]) begin
+            $display("######################");
+            $display("### jtag test pass ###");
+            $display("######################");
+        end else begin
+            $display("######################");
+            $display("!!! jtag test fail !!!");
+            $display("######################");
+        end
 `endif
 
         $finish;
@@ -499,7 +511,7 @@ module tinyriscv_soc_tb;
 
     // read mem data
     initial begin
-        $readmemh ("inst.data", tinyriscv_soc_top_0.u_rom._rom);
+        $readmemh ("inst.data", tinyriscv_soc_top_0.u_rom.u_gen_ram.ram);
     end
 
     // generate wave file, used by gtkwave
@@ -510,12 +522,14 @@ module tinyriscv_soc_tb;
 
     tinyriscv_soc_top tinyriscv_soc_top_0(
         .clk(clk),
-        .rst(rst),
-        .uart_debug_pin(1'b0)/*
+        .rst_ext_i(rst_n)
+`ifdef TEST_JTAG
+        ,
         .jtag_TCK(TCK),
         .jtag_TMS(TMS),
         .jtag_TDI(TDI),
-        .jtag_TDO(TDO)*/
+        .jtag_TDO(TDO)
+`endif
     );
 
 endmodule

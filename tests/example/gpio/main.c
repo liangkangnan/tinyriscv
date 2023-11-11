@@ -17,4 +17,8 @@ int main()
         else
             GPIO_REG(GPIO_DATA) &= ~0x1; // GPIO0输出低
     }
+    // while(1){
+    //     GPIO_REG(GPIO_DATA) |= 0x1; // GPIO0输出高
+    //     //GPIO_REG(GPIO_DATA) &= ~0x1; // GPIO0输出低
+    // }
 }

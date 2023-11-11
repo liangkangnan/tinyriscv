@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "lcd_init.h": "c",
+        "memory.h": "c",
+        "string.h": "c",
+        "*.rh": "c",
+        "stdint.h": "c",
+        "lcd.h": "c",
+        "cstdlib": "c",
+        "windows.h": "c",
+        "stdlib.h": "c",
+        "lcdfont.h": "c"
+    }
+}

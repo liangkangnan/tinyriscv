@@ -1,0 +1,659 @@
+##### Written on 2023/10/11 20:32:11 ###############################
+
+
+##### INFO ##################################################
+
+Current device : 
+	PGL22G-6MBG324
+
+Top Module : 
+	gen_rst_def_dff
+
+Constraint File(s) : 
+	D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc
+
+##### SUMMARY ######################################################
+
+Found 129 error(s), 0 critical warning(s), 97 warning(s), out of 135 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:halted_ind} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 1)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_LOC} {U10}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 2)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 3)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 4)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 5)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 6)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 7)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_LOC} {R18}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 8)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 9)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 10)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 11)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 12)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:rst_ext_i} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 17)] Object 'p:rst_ext_i' can not be found in current view.
+
+define_attribute {p:rst_ext_i} {PAP_IO_LOC} {U12}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 18)] Object 'p:rst_ext_i' can not be found in current view.
+
+define_attribute {p:rst_ext_i} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 19)] Object 'p:rst_ext_i' can not be found in current view.
+
+define_attribute {p:rst_ext_i} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 20)] Object 'p:rst_ext_i' can not be found in current view.
+
+define_attribute {p:uart_rx_pin} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 21)] Object 'p:uart_rx_pin' can not be found in current view.
+
+define_attribute {p:uart_rx_pin} {PAP_IO_LOC} {N14}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 22)] Object 'p:uart_rx_pin' can not be found in current view.
+
+define_attribute {p:uart_rx_pin} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 23)] Object 'p:uart_rx_pin' can not be found in current view.
+
+define_attribute {p:uart_rx_pin} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 24)] Object 'p:uart_rx_pin' can not be found in current view.
+
+define_attribute {n:jtag_TCK} {PAP_CLOCK_DEDICATED_ROUTE} {FALSE} 
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 26)] Object 'n:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 27)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_LOC} {V17}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 28)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 29)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 30)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 31)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 32)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:jtag_TCK} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 33)] Object 'p:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TCK} {PAP_IO_LOC} {T17}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 34)] Object 'p:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TCK} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 35)] Object 'p:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TCK} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 36)] Object 'p:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TDI} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 37)] Object 'p:jtag_TDI' can not be found in current view.
+
+define_attribute {p:jtag_TDI} {PAP_IO_LOC} {V18}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 38)] Object 'p:jtag_TDI' can not be found in current view.
+
+define_attribute {p:jtag_TDI} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 39)] Object 'p:jtag_TDI' can not be found in current view.
+
+define_attribute {p:jtag_TDI} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 40)] Object 'p:jtag_TDI' can not be found in current view.
+
+define_attribute {p:jtag_TMS} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 41)] Object 'p:jtag_TMS' can not be found in current view.
+
+define_attribute {p:jtag_TMS} {PAP_IO_LOC} {T18}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 42)] Object 'p:jtag_TMS' can not be found in current view.
+
+define_attribute {p:jtag_TMS} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 43)] Object 'p:jtag_TMS' can not be found in current view.
+
+define_attribute {p:jtag_TMS} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 44)] Object 'p:jtag_TMS' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 45)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_LOC} {P17}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 46)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 47)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 48)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 49)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 50)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 51)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_LOC} {U11}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 52)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 53)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 54)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 55)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 56)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:gpio[1]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 57)] Object 'p:gpio[1]' can not be found in current view.
+
+define_attribute {p:gpio[0]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 58)] Object 'p:gpio[0]' can not be found in current view.
+
+define_attribute {p:halted_ind} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 59)] Object 'p:halted_ind' can not be found in current view.
+
+define_attribute {p:jtag_TDO} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 60)] Object 'p:jtag_TDO' can not be found in current view.
+
+define_attribute {p:spi_clk} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 61)] Object 'p:spi_clk' can not be found in current view.
+
+define_attribute {p:spi_clk} {PAP_IO_LOC} {N15}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 62)] Object 'p:spi_clk' can not be found in current view.
+
+define_attribute {p:spi_clk} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 63)] Object 'p:spi_clk' can not be found in current view.
+
+define_attribute {p:spi_clk} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 64)] Object 'p:spi_clk' can not be found in current view.
+
+define_attribute {p:spi_clk} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 65)] Object 'p:spi_clk' can not be found in current view.
+
+define_attribute {p:spi_clk} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 66)] Object 'p:spi_clk' can not be found in current view.
+
+define_attribute {p:spi_clk} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 67)] Object 'p:spi_clk' can not be found in current view.
+
+define_attribute {p:spi_mosi} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 68)] Object 'p:spi_mosi' can not be found in current view.
+
+define_attribute {p:spi_mosi} {PAP_IO_LOC} {L13}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 69)] Object 'p:spi_mosi' can not be found in current view.
+
+define_attribute {p:spi_mosi} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 70)] Object 'p:spi_mosi' can not be found in current view.
+
+define_attribute {p:spi_mosi} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 71)] Object 'p:spi_mosi' can not be found in current view.
+
+define_attribute {p:spi_mosi} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 72)] Object 'p:spi_mosi' can not be found in current view.
+
+define_attribute {p:spi_mosi} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 73)] Object 'p:spi_mosi' can not be found in current view.
+
+define_attribute {p:spi_mosi} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 74)] Object 'p:spi_mosi' can not be found in current view.
+
+define_attribute {p:spi_ss} {PAP_IO_DIRECTION} {OUTPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 75)] Object 'p:spi_ss' can not be found in current view.
+
+define_attribute {p:spi_ss} {PAP_IO_LOC} {P18}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 76)] Object 'p:spi_ss' can not be found in current view.
+
+define_attribute {p:spi_ss} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 77)] Object 'p:spi_ss' can not be found in current view.
+
+define_attribute {p:spi_ss} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 78)] Object 'p:spi_ss' can not be found in current view.
+
+define_attribute {p:spi_ss} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 79)] Object 'p:spi_ss' can not be found in current view.
+
+define_attribute {p:spi_ss} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 80)] Object 'p:spi_ss' can not be found in current view.
+
+define_attribute {p:spi_ss} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 81)] Object 'p:spi_ss' can not be found in current view.
+
+define_attribute {p:uart_tx_pin} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 82)] Object 'p:uart_tx_pin' can not be found in current view.
+
+define_attribute {p:jtag_TCK} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 84)] Object 'p:jtag_TCK' can not be found in current view.
+
+define_attribute {p:jtag_TDI} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 85)] Object 'p:jtag_TDI' can not be found in current view.
+
+define_attribute {p:jtag_TMS} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 86)] Object 'p:jtag_TMS' can not be found in current view.
+
+define_attribute {p:rst_ext_i} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 87)] Object 'p:rst_ext_i' can not be found in current view.
+
+define_attribute {p:spi_miso} {PAP_IO_DIRECTION} {INPUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 88)] Object 'p:spi_miso' can not be found in current view.
+
+define_attribute {p:spi_miso} {PAP_IO_LOC} {R17}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 89)] Object 'p:spi_miso' can not be found in current view.
+
+define_attribute {p:spi_miso} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 90)] Object 'p:spi_miso' can not be found in current view.
+
+define_attribute {p:spi_miso} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 91)] Object 'p:spi_miso' can not be found in current view.
+
+define_attribute {p:spi_miso} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 92)] Object 'p:spi_miso' can not be found in current view.
+
+define_attribute {p:uart_rx_pin} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 93)] Object 'p:uart_rx_pin' can not be found in current view.
+
+define_attribute {p:gpio[7]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 94)] Object 'p:gpio[7]' can not be found in current view.
+
+define_attribute {p:gpio[7]} {PAP_IO_LOC} {R14}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 95)] Object 'p:gpio[7]' can not be found in current view.
+
+define_attribute {p:gpio[7]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 96)] Object 'p:gpio[7]' can not be found in current view.
+
+define_attribute {p:gpio[7]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 97)] Object 'p:gpio[7]' can not be found in current view.
+
+define_attribute {p:gpio[7]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 98)] Object 'p:gpio[7]' can not be found in current view.
+
+define_attribute {p:gpio[7]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 99)] Object 'p:gpio[7]' can not be found in current view.
+
+define_attribute {p:gpio[7]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 100)] Object 'p:gpio[7]' can not be found in current view.
+
+define_attribute {p:gpio[6]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 101)] Object 'p:gpio[6]' can not be found in current view.
+
+define_attribute {p:gpio[6]} {PAP_IO_LOC} {R15}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 102)] Object 'p:gpio[6]' can not be found in current view.
+
+define_attribute {p:gpio[6]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 103)] Object 'p:gpio[6]' can not be found in current view.
+
+define_attribute {p:gpio[6]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 104)] Object 'p:gpio[6]' can not be found in current view.
+
+define_attribute {p:gpio[6]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 105)] Object 'p:gpio[6]' can not be found in current view.
+
+define_attribute {p:gpio[6]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 106)] Object 'p:gpio[6]' can not be found in current view.
+
+define_attribute {p:gpio[6]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 107)] Object 'p:gpio[6]' can not be found in current view.
+
+define_attribute {p:gpio[5]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 108)] Object 'p:gpio[5]' can not be found in current view.
+
+define_attribute {p:gpio[5]} {PAP_IO_LOC} {P14}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 109)] Object 'p:gpio[5]' can not be found in current view.
+
+define_attribute {p:gpio[5]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 110)] Object 'p:gpio[5]' can not be found in current view.
+
+define_attribute {p:gpio[5]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 111)] Object 'p:gpio[5]' can not be found in current view.
+
+define_attribute {p:gpio[5]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 112)] Object 'p:gpio[5]' can not be found in current view.
+
+define_attribute {p:gpio[5]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 113)] Object 'p:gpio[5]' can not be found in current view.
+
+define_attribute {p:gpio[5]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 114)] Object 'p:gpio[5]' can not be found in current view.
+
+define_attribute {p:gpio[4]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 115)] Object 'p:gpio[4]' can not be found in current view.
+
+define_attribute {p:gpio[4]} {PAP_IO_LOC} {P13}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 116)] Object 'p:gpio[4]' can not be found in current view.
+
+define_attribute {p:gpio[4]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 117)] Object 'p:gpio[4]' can not be found in current view.
+
+define_attribute {p:gpio[4]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 118)] Object 'p:gpio[4]' can not be found in current view.
+
+define_attribute {p:gpio[4]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 119)] Object 'p:gpio[4]' can not be found in current view.
+
+define_attribute {p:gpio[4]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 120)] Object 'p:gpio[4]' can not be found in current view.
+
+define_attribute {p:gpio[4]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 121)] Object 'p:gpio[4]' can not be found in current view.
+
+define_attribute {p:gpio[3]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 122)] Object 'p:gpio[3]' can not be found in current view.
+
+define_attribute {p:gpio[3]} {PAP_IO_LOC} {R13}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 123)] Object 'p:gpio[3]' can not be found in current view.
+
+define_attribute {p:gpio[3]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 124)] Object 'p:gpio[3]' can not be found in current view.
+
+define_attribute {p:gpio[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 125)] Object 'p:gpio[3]' can not be found in current view.
+
+define_attribute {p:gpio[3]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 126)] Object 'p:gpio[3]' can not be found in current view.
+
+define_attribute {p:gpio[3]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 127)] Object 'p:gpio[3]' can not be found in current view.
+
+define_attribute {p:gpio[3]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 128)] Object 'p:gpio[3]' can not be found in current view.
+
+define_attribute {p:gpio[2]} {PAP_IO_DIRECTION} {INOUT}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 129)] Object 'p:gpio[2]' can not be found in current view.
+
+define_attribute {p:gpio[2]} {PAP_IO_LOC} {T13}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 130)] Object 'p:gpio[2]' can not be found in current view.
+
+define_attribute {p:gpio[2]} {PAP_IO_VCCIO} {3.3}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 131)] Object 'p:gpio[2]' can not be found in current view.
+
+define_attribute {p:gpio[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 132)] Object 'p:gpio[2]' can not be found in current view.
+
+define_attribute {p:gpio[2]} {PAP_IO_DRIVE} {4}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 133)] Object 'p:gpio[2]' can not be found in current view.
+
+define_attribute {p:gpio[2]} {PAP_IO_NONE} {TRUE}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 134)] Object 'p:gpio[2]' can not be found in current view.
+
+define_attribute {p:gpio[2]} {PAP_IO_SLEW} {SLOW}
+
+	E: ConstraintEditor-0046: [D:/FPGA_LAB_pangomicro/tinyriscv/FPGA_Competition-RISC-V_Processor-in-PGL22G-main/tinydram.fdc(line number: 135)] Object 'p:gpio[2]' can not be found in current view.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+W: ConstraintEditor-4019: Port 'qout[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[10]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[11]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[12]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[13]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[14]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[15]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[16]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[17]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[18]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[19]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[20]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[21]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[22]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[23]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[24]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[25]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[26]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[27]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[28]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[29]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[30]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'qout[31]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[10]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[11]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[12]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[13]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[14]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[15]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[16]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[17]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[18]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[19]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[20]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[21]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[22]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[23]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[24]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[25]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[26]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[27]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[28]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[29]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[30]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'def_val[31]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[0]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[1]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[2]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[3]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[4]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[5]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[6]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[7]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[8]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[9]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[10]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[11]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[12]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[13]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[14]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[15]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[16]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[17]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[18]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[19]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[20]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[21]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[22]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[23]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[24]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[25]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[26]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[27]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[28]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[29]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[30]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'din[31]' unspecified I/O constraint.
+W: ConstraintEditor-4019: Port 'rst_n' unspecified I/O constraint.
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+

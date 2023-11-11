@@ -2,10 +2,10 @@
 *.o
 *.ko
 *.obj
-
+*.bin
+*.dump
 inst.data
 out.vvp
 tinyriscv_soc_tb.vcd
-complie.log
 run.log
 signature.output
