@@ -774,7 +774,7 @@ module ex(
                     end
                 endcase
             end
-            `INST_JAL, `INST_JALR: begin
+            `INST_JAL: begin
                 hold_flag = `HoldDisable;
                 mem_wdata_o = `ZeroWord;
                 mem_raddr_o = `ZeroWord;
@@ -782,6 +782,16 @@ module ex(
                 mem_we = `WriteDisable;
                 jump_flag = `JumpEnable;
                 jump_addr = op1_jump_add_op2_jump_res;
+                reg_wdata = op1_add_op2_res;
+            end
+            `INST_JALR: begin
+                hold_flag = `HoldDisable;
+                mem_wdata_o = `ZeroWord;
+                mem_raddr_o = `ZeroWord;
+                mem_waddr_o = `ZeroWord;
+                mem_we = `WriteDisable;
+                jump_flag = `JumpEnable;
+                jump_addr = op1_jump_add_op2_jump_res & ~32'h1;  // Clear LSB per RISC-V spec
                 reg_wdata = op1_add_op2_res;
             end
             `INST_LUI, `INST_AUIPC: begin
